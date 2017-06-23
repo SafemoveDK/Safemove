@@ -9,6 +9,8 @@
       <meta charset="iso-8859-1"
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+      <title>Safemove</title>
     </head>
 
     <body>
@@ -99,26 +101,16 @@
 <div id="status">
 </div>
 
-      <nav>
-        <div class="nav-wrapper">
-            <img src="logo.png"  style="height:60px">
-          <ul id="nav-mobile" class="right">
-            <li><a class="grey-text" href="safemovecommunity.html">Safemove-community</a></li>
-            <li><a class="grey-text" href="kontaktOs.html">Kontakt os</a></li>
-            <li><a class="grey-text" href="#modal1">Opret bruger</a></li>
-            <li><a class="waves-effect waves-light btn button-orange">Login</a></li>
-          </ul>
-        </div>
-      </nav>
+  <?php include 'header.php';?>
 
     <!--Frontpage image -->
       <div>
-        <img class ="cover" src="gpsimages/aalborg1.jpeg">
+        <img class ="cover" src="img/gpsimages/aalborg1.jpeg">
       </div>
 
       <!--Frontpage SloganText -->
       <div>
-        <h1 class="frontpage-text">Flyt med tryghed - se hvad folk synes om dit kommende boligområde</h1>
+        <h1 class="cover-text">Flyt med tryghed - se hvad folk synes om dit kommende boligområde</h1>
       </div>
 
       //Frontpage facbook login and rate area

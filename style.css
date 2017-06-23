@@ -3,41 +3,33 @@ body
 font-family: montserrat;
 color: #f28541;
 }
+
+.btn
+{
+background-color: #f28541 !important;
+}
+
 .button-orange
 {
 background-color: #f28541;
 }
-.nav-wrapper
-{
-    background-color: #fff;
-}
-.grey-text
-{
-color: #75707A;
-position: relative;
-}
+
 .cover
 {
     width: 100%;
     position: absolute;
 }
-#searchbox {
-    padding-top: 100px;
-    padding-left: 340px;
-    width: 80%;
-    position: absolute;
-    border-radius: 10px !important;
-    top: 250px;
-}
-.textopacity
+
+.cover-text
 {
-    color: grey;
-    opacity: 0.7;
+  padding-top: 100px;
+  font-size: 40px;
+  text-align: center;
+  position: relative;
+  color: white;
+
 }
-.btn
-{
-background-color: #f28541 !important;
-}
+
 .frontpage-text
 {
     font-size: xx-large;
@@ -46,6 +38,28 @@ background-color: #f28541 !important;
     left: 210px;
     color: white;
 }
+
+.grey-text
+{
+color: #75707A;
+position: relative;
+}
+
+.modalheader
+{
+    background-color: #1B4965;
+    width: 20%;
+    height: 100px;
+    top: 100px;
+    z-index: 1 !important;
+    position: absolute;
+}
+
+.nav-wrapper
+{
+    background-color: #fff;
+}
+
 .rate-area-login
 {
     background-color: #1B4965;
@@ -56,12 +70,18 @@ background-color: #f28541 !important;
     border-radius: 5px;
     padding: 25px;
 }
-.modalheader
+
+.textopacity
 {
-    background-color: #1B4965;
-    width: 20%;
-    height: 100px;
-    top: 100px;
-    z-index: 1 !important;
+    color: grey;
+    opacity: 0.7;
+}
+
+#searchbox {
+    padding-top: 100px;
+    padding-left: 340px;
+    width: 80%;
     position: absolute;
+    border-radius: 10px !important;
+    top: 250px;
 }
