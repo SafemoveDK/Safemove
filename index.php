@@ -101,24 +101,25 @@
 <div id="status">
 </div>
 
+  <!-- Header -->
   <?php include 'header.php';?>
 
-    <!--Frontpage image -->
+    <!-- Frontpage image -->
       <div>
         <img class ="cover" src="img/gpsimages/aalborg1.jpeg">
       </div>
 
-      <!--Frontpage SloganText -->
+      <!-- Frontpage SloganText -->
       <div>
         <h1 class="cover-text">Flyt med tryghed - se hvad folk synes om dit kommende boligområde</h1>
       </div>
 
-      //Frontpage facbook login and rate area
+      <!-- Frontpage facbook login and rate area -->
       <div class="rate-area-login">
         <div class="fb-login-button" data-max-rows="1" data-size="large" data-button-type="continue_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="false"></div>
       </div>
 
-      // Login modal
+      <!-- Login modal -->
       <div id="modal1" class="modal modal-fixed-footer">
         <div class="modal-content">
           <div class="modalheader">
