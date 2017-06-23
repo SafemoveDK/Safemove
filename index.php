@@ -5,7 +5,7 @@
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
-      <link type="text/css" rel="stylesheet" href="/Safemove/style.css"/>
+      <link type="text/css" rel="stylesheet" href="style.css"/>
       <meta charset="iso-8859-1"
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -41,14 +41,14 @@
   window.fbAsyncInit = function() {
   FB.init({
     appId      : '{1225418490911338}',
-    cookie     : true,  // enable cookies to allow the server to access 
+    cookie     : true,  // enable cookies to allow the server to access
                         // the session
     xfbml      : true,  // parse social plugins on this page
     oauth      : true,
     version    : 'v2.8' // use graph api version 2.8
   });
 
-  // Now that we've initialized the JavaScript SDK, we call 
+  // Now that we've initialized the JavaScript SDK, we call
   // FB.getLoginStatus().  This function gets the state of the
   // person visiting this page and can return one of three states to
   // the callback you provide.  They can be:
@@ -101,7 +101,7 @@
 
       <nav>
         <div class="nav-wrapper">
-            <img src="/Safemove/logo.png"  style="height:60px">
+            <img src="logo.png"  style="height:60px">
           <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li><a class="color" href="safemovecommunity.html">Safemove-community</a></li>
             <li><a class="color" href="kontaktOs.html">Kontakt os</a></li>
@@ -110,22 +110,22 @@
           </ul>
         </div>
       </nav>
-    
+
     <!--Frontpage image -->
       <div>
-        <img class ="cover" src="/Safemove/gpsimages/aalborg1.jpeg">
+        <img class ="cover" src="gpsimages/aalborg1.jpeg">
       </div>
-      
+
       <!--Frontpage SloganText -->
       <div>
         <h1 class="frontpage-text">Flyt med tryghed - se hvad folk synes om dit kommende boligområde</h1>
       </div>
-      
+
       //Frontpage facbook login and rate area
       <div class="rate-area-login">
         <div class="fb-login-button" data-max-rows="1" data-size="large" data-button-type="continue_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="false"></div>
       </div>
-      
+
       // Login modal
       <div id="modal1" class="modal modal-fixed-footer">
         <div class="modal-content">
@@ -137,22 +137,22 @@
             <form id="loginform" name="loginform" method="post" action="index.html">
               <label for="username">Fornavn:</label>
               <input type="text" name="username" id="username" class="txtfield" tabindex="1">
-              
+
               <label for="birthdate">Fødselsdato:</label>
               <input type="number" name="birthdate" id="birthdate" class="txtfield" tabindex="2">
-              
+
               <label for="email">Email:</label>
               <input type="email" name="email" id="email" class="txtfield" tabindex="3">
-              
+
               <label for="password">Adgangskode:</label>
               <input type="password" name="password" id="password" class="txtfield" tabindex="4">
-              
+
               <label for="area">Vejnavn:</label>
               <input type="text" name="area" id="area" class="txtfield" tabindex="5">
-              
+
               <label for="phonenumber">Telefonnummer:</label>
               <input type="tel" name="phonenumber" id="phonenumber" class="txtfield" tabindex="3">
-              
+
               <div class="center"><input type="submit" name="loginbtn" id="loginbtn" class="flatbtn-blu hidemodal" value="Log In" tabindex="3"></div>
             </form>
           </div>
@@ -161,7 +161,7 @@
           <a href="#!" class="modal-action modal-close btn-flat ">Agree</a>
         </div>
       </div>
-      
+
       // Searchbox
       <div id="searchbox">
       <form>
@@ -171,7 +171,7 @@
         </div>
       </form>
       </div>
-      
+
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
