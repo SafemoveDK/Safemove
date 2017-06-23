@@ -3,6 +3,8 @@
     <head>
       <!--Import Google Icon Font-->
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import Font Awesome-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
       <link type="text/css" rel="stylesheet" href="style.css"/>
@@ -13,7 +15,7 @@
       <title>Safemove</title>
     </head>
 
-    <body>
+  <body>
       <div id="fb-root"></div>
 <script>
   // This is called with the results from from FB.getLoginStatus().
@@ -98,76 +100,75 @@
 <!--<fb:login-button data-scope="public_profile,email" data-onlogin="checkLoginState();">
 </fb:login-button> -->
 
-<div id="status">
-</div>
+  <div id="status">
+  </div>
 
-  <!-- Header -->
-  <?php include 'header.php';?>
+    <!-- Header -->
+    <?php include 'header.php';?>
 
-    <!-- Frontpage image -->
-      <div>
-        <img class ="cover" src="img/gpsimages/aalborg1.jpeg">
-      </div>
+    <!-- Cover -->
+    <div class = "cover-img">
+    <br />
+    <br />
+    <br />
+      <h2 class="cover-text">FLYT MED TRYGHED</h2>
+      <h4 class="cover-text">- se hvad folk synes om dit kommende boligområde</h4>
 
-      <!-- Frontpage SloganText -->
-      <div>
-        <h1 class="cover-text">Flyt med tryghed - se hvad folk synes om dit kommende boligområde</h1>
-      </div>
-
-      <!-- Frontpage facbook login and rate area -->
-      <div class="rate-area-login">
-        <div class="fb-login-button" data-max-rows="1" data-size="large" data-button-type="continue_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="false"></div>
-      </div>
-
-      <!-- Login modal -->
-      <div id="modal1" class="modal modal-fixed-footer">
-        <div class="modal-content">
-          <div class="modalheader">
-            <h4>Modal Header</h4>
-          </div>
-          <div id="loginmodal" style="display:none;">
-            <h1>Opret bruger</h1>
-            <form id="loginform" name="loginform" method="post" action="index.html">
-              <label for="username">Fornavn:</label>
-              <input type="text" name="username" id="username" class="txtfield" tabindex="1">
-
-              <label for="birthdate">Fødselsdato:</label>
-              <input type="number" name="birthdate" id="birthdate" class="txtfield" tabindex="2">
-
-              <label for="email">Email:</label>
-              <input type="email" name="email" id="email" class="txtfield" tabindex="3">
-
-              <label for="password">Adgangskode:</label>
-              <input type="password" name="password" id="password" class="txtfield" tabindex="4">
-
-              <label for="area">Vejnavn:</label>
-              <input type="text" name="area" id="area" class="txtfield" tabindex="5">
-
-              <label for="phonenumber">Telefonnummer:</label>
-              <input type="tel" name="phonenumber" id="phonenumber" class="txtfield" tabindex="3">
-
-              <div class="center"><input type="submit" name="loginbtn" id="loginbtn" class="flatbtn-blu hidemodal" value="Log In" tabindex="3"></div>
-            </form>
-          </div>
-        </div>
-        <div class="modal-footer">
-          <a href="#!" class="modal-action modal-close btn-flat ">Agree</a>
-        </div>
-      </div>
-
-      // Searchbox
+      <!-- Search box -->
       <div id="searchbox">
-      <form>
-        <div class="input-field nav-wrapper">
-          <input id="search" type="search" required>
-          <label class="label-icon textopacity" for="search"><i class="material-icons">search</i></label>
-        </div>
-      </form>
+        <form>
+          <div class="input-field nav-wrapper">
+            <input id="search" type="search" required>
+            <label class="label-icon textopacity" for="search"><i class="material-icons">search</i></label>
+          </div>
+        </form>
       </div>
 
-      <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+    </div>
+    <!-- Frontpage facbook login and rate area -->
+    <div class="rate-area-login center">
+      <div class="fb-login-button" data-max-rows="1" data-size="large" data-button-type="continue_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="false"></div>
+    </div>
+
+    <!-- Login modal -->
+    <div id="modal1" class="modal modal-fixed-footer">
+      <div class="modal-content">
+        <div class="modalheader">
+          <h4>Modal Header</h4>
+        </div>
+        <div id="loginmodal" style="display:none;">
+          <h1>Opret bruger</h1>
+          <form id="loginform" name="loginform" method="post" action="index.html">
+            <label for="username">Fornavn:</label>
+            <input type="text" name="username" id="username" class="txtfield" tabindex="1">
+
+            <label for="birthdate">Fødselsdato:</label>
+            <input type="number" name="birthdate" id="birthdate" class="txtfield" tabindex="2">
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" class="txtfield" tabindex="3">
+
+            <label for="password">Adgangskode:</label>
+            <input type="password" name="password" id="password" class="txtfield" tabindex="4">
+
+            <label for="area">Vejnavn:</label>
+            <input type="text" name="area" id="area" class="txtfield" tabindex="5">
+
+            <label for="phonenumber">Telefonnummer:</label>
+            <input type="tel" name="phonenumber" id="phonenumber" class="txtfield" tabindex="3">
+
+            <div class="center"><input type="submit" name="loginbtn" id="loginbtn" class="flatbtn-blu hidemodal" value="Log In" tabindex="3"></div>
+          </form>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close btn-flat ">Agree</a>
+      </div>
+    </div>
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
     </body>
   </html>
         <script>

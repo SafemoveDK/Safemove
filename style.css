@@ -1,48 +1,48 @@
 body
 {
-font-family: montserrat;
-color: #f28541;
+    font-family: montserrat;
+    color: #f28541;
+}
+
+.background-blue
+{
+    background-color: #1B4965;
+}
+
+.background-white
+{
+    background-color: white;
 }
 
 .btn
 {
-background-color: #f28541 !important;
+    background-color: #f28541 !important;
 }
 
 .button-orange
 {
-background-color: #f28541;
+    background-color: #f28541;
 }
 
-.cover
-{
+.cover-img {
+    height: 700px;
+    background-image: url('img/gpsimages/aalborg1.jpeg');
     width: 100%;
     position: absolute;
 }
 
 .cover-text
 {
-  padding-top: 100px;
-  font-size: 40px;
-  text-align: center;
-  position: relative;
-  color: white;
-
-}
-
-.frontpage-text
-{
-    font-size: xx-large;
-    position: absolute;
-    top: 150px;
-    left: 210px;
+    padding-top: 25px;
+    text-align: center;
     color: white;
+
 }
 
 .grey-text
 {
-color: #75707A;
-position: relative;
+    color: #75707A;
+    position: relative;
 }
 
 .modalheader
@@ -63,7 +63,7 @@ position: relative;
 .rate-area-login
 {
     background-color: #1B4965;
-    position: absolute;
+    position: relative;
     width: 100% !important;
     height: 175px;
     top: 575px;
