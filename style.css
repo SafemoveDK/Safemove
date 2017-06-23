@@ -1,26 +1,21 @@
-body
-{
+body {
     font-family: montserrat;
     color: #f28541;
 }
 
-.background-blue
-{
+.background-blue {
     background-color: #1B4965;
 }
 
-.background-white
-{
+.background-white {
     background-color: white;
 }
 
-.btn
-{
+.btn {
     background-color: #f28541 !important;
 }
 
-.button-orange
-{
+.button-orange {
     background-color: #f28541;
 }
 
@@ -31,22 +26,19 @@ body
     position: absolute;
 }
 
-.cover-text
-{
+.cover-text {
     padding-top: 25px;
     text-align: center;
     color: white;
 
 }
 
-.grey-text
-{
+.grey-text {
     color: #75707A;
     position: relative;
 }
 
-.modalheader
-{
+.modalheader {
     background-color: #1B4965;
     width: 20%;
     height: 100px;
@@ -55,13 +47,11 @@ body
     position: absolute;
 }
 
-.nav-wrapper
-{
+.nav-wrapper {
     background-color: #fff;
 }
 
-.rate-area-login
-{
+.rate-area-login {
     background-color: #1B4965;
     position: relative;
     width: 100% !important;
@@ -71,8 +61,7 @@ body
     padding: 25px;
 }
 
-.textopacity
-{
+.textopacity {
     color: grey;
     opacity: 0.7;
 }
