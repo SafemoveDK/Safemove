@@ -102,10 +102,10 @@
       <nav>
         <div class="nav-wrapper">
             <img src="logo.png"  style="height:60px">
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a class="color" href="safemovecommunity.html">Safemove-community</a></li>
-            <li><a class="color" href="kontaktOs.html">Kontakt os</a></li>
-            <li><a class="color" href="#modal1">Opret bruger</a></li>
+          <ul id="nav-mobile" class="right">
+            <li><a class="grey-text" href="safemovecommunity.html">Safemove-community</a></li>
+            <li><a class="grey-text" href="kontaktOs.html">Kontakt os</a></li>
+            <li><a class="grey-text" href="#modal1">Opret bruger</a></li>
             <li><a class="waves-effect waves-light btn button-orange">Login</a></li>
           </ul>
         </div>
