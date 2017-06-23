@@ -186,4 +186,8 @@
       },// Callback for Modal close
     }
   );
+<<<<<<< HEAD
       </script>
+=======
+        </script>
+>>>>>>> b57605a7c0b87bf48de9f459d108cb1a01a2e4b7
