@@ -1,6 +1,6 @@
 body {
     font-family: montserrat;
-    color: #f28541;
+    color: #F28541;
 }
 
 .background-blue {
@@ -12,18 +12,18 @@ body {
 }
 
 .btn {
-    background-color: #f28541 !important;
+    background-color: #F28541 !important;
 }
 
 .button-orange {
-    background-color: #f28541;
+    background-color: #F28541;
 }
 
 .cover-img {
     height: 700px;
     background-image: url('img/gpsimages/aalborg1.jpeg');
     width: 100%;
-    position: absolute;
+    position: relative;
 }
 
 .cover-text {
@@ -56,9 +56,16 @@ body {
     position: relative;
     width: 100% !important;
     height: 175px;
-    top: 575px;
     border-radius: 5px;
     padding: 25px;
+}
+
+.safemove-blue {
+    color: #1B4965;
+}
+
+.safemove-orange {
+    color: #F28541;
 }
 
 .textopacity {

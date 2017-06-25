@@ -7,7 +7,7 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
-      <link type="text/css" rel="stylesheet" href="style.css"/>
+      <link type="text/css" rel="stylesheet" href="./style.css"/>
       <meta charset="iso-8859-1"
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -107,12 +107,12 @@
     <?php include 'header.php';?>
 
     <!-- Cover -->
-    <div class = "cover-img">
+    <div class = "cover-img responsive-img">
     <br />
     <br />
     <br />
       <h2 class="cover-text">FLYT MED TRYGHED</h2>
-      <h4 class="cover-text">- se hvad folk synes om dit kommende boligområde</h4>
+      <h4 class="cover-text">Se hvad folk synes om dit kommende boligområde</h4>
 
       <!-- Search box -->
       <div id="searchbox">
@@ -127,7 +127,13 @@
     </div>
     <!-- Frontpage facbook login and rate area -->
     <div class="rate-area-login center">
-      <div class="fb-login-button" data-max-rows="1" data-size="large" data-button-type="continue_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="false"></div>
+      <!-- <div class="fb-login-button" data-max-rows="1" data-size="large" data-button-type="continue_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="false"></div> -->
+      <div class="row">
+        <a class="waves-effect waves-light btn social facebook">
+        <i class="fa fa-facebook"></i> Sign in with facebook</a>
+        <a class="waves-effect waves-light btn create-user-btn">
+        <i class="material-icons left">perm_identity</i>Opret bruger</a>
+      </div>
     </div>
 
     <!-- Login modal -->
@@ -163,6 +169,49 @@
       </div>
       <div class="modal-footer">
         <a href="#!" class="modal-action modal-close btn-flat ">Agree</a>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="section">
+
+        <!--   Icon Section   -->
+        <div class="row">
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center safemove-orange"><i class="fa fa-heart"></i></h2>
+              <h5 class="center safemove-blue">Ratere</h5>
+
+              <p class="light safemove-blue">Lorem Ipsum er ganske enkelt fyldtekst fra print- og typografiindustrien. Lorem Ipsum har været standard fyldtekst siden 1500-tallet, hvor en ukendt trykker sammensatte en tilfældig spalte for at trykke en bog til sammenligning af forskellige skrifttyper. Lorem Ipsum har ikke alene overlevet fem århundreder, men har også vundet indpas i elektronisk typografi uden væsentlige ændringer.</p>
+            </div>
+          </div>
+
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center safemove-orange"><i class="fa fa-info"></i></h2>
+              <h5 class="center safemove-blue">Information</h5>
+
+              <p class="light safemove-blue">Lorem Ipsum er ganske enkelt fyldtekst fra print- og typografiindustrien. Lorem Ipsum har været standard fyldtekst siden 1500-tallet, hvor en ukendt trykker sammensatte en tilfældig spalte for at trykke en bog til sammenligning af forskellige skrifttyper. Lorem Ipsum har ikke alene overlevet fem århundreder, men har også vundet indpas i elektronisk typografi uden væsentlige ændringer.</p>
+            </div>
+          </div>
+
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center safemove-orange"><i class="fa fa-search"></i></h2>
+              <h5 class="center safemove-blue">Søgere</h5>
+
+              <p class="light safemove-blue">Lorem Ipsum er ganske enkelt fyldtekst fra print- og typografiindustrien. Lorem Ipsum har været standard fyldtekst siden 1500-tallet, hvor en ukendt trykker sammensatte en tilfældig spalte for at trykke en bog til sammenligning af forskellige skrifttyper. Lorem Ipsum har ikke alene overlevet fem århundreder, men har også vundet indpas i elektronisk typografi uden væsentlige ændringer.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <br><br>
+    </div>
+
+    <div class=background-blue>
+      <div class="container">
+        <p class="center">Du er altid velkommen til at kontakte os</p>
       </div>
     </div>
 
