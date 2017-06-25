@@ -128,10 +128,12 @@
     <!-- Frontpage facbook login and rate area -->
     <div class="rate-area-login center">
       <!-- <div class="fb-login-button" data-max-rows="1" data-size="large" data-button-type="continue_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="false"></div> -->
+      <br />
+      <br />
       <div class="row">
-        <a class="waves-effect waves-light btn social facebook">
-        <i class="fa fa-facebook"></i> Sign in with facebook</a>
-        <a class="waves-effect waves-light btn create-user-btn">
+        <a class="waves-effect waves-light btn facebook-blue">
+        <i class="fa fa-facebook-square left"></i>Log ind med Facebook</a>
+        <a class="waves-effect waves-light btn background-orange">
         <i class="material-icons left">perm_identity</i>Opret bruger</a>
       </div>
     </div>
@@ -172,10 +174,9 @@
       </div>
     </div>
 
-    <div class="container">
+    <div id="safemove-community" class="container">
       <div class="section">
 
-        <!--   Icon Section   -->
         <div class="row">
           <div class="col s12 m4">
             <div class="icon-block">
@@ -210,7 +211,7 @@
     </div>
 
     <div class=background-blue>
-      <div>
+      <div id="kontakt-os">
         <p class="contact-headline center-align">Du er altid velkommen til at kontakte os</p>
         <?php include 'contact_form.php';?>
       </div>

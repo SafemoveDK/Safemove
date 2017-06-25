@@ -20,10 +20,10 @@
         <div class="nav-wrapper">
             <img src="img/logo.png"  style="height:60px">
           <ul id="nav-mobile" class="right">
-            <li><a class="grey-text" href="safemovecommunity.html">Safemove-community</a></li>
-            <li><a class="grey-text" href="kontaktOs.html">Kontakt os</a></li>
-            <li><a class="grey-text" href="#modal1">Opret bruger</a></li>
-            <li><a class="waves-effect waves-light btn button-orange">Login</a></li>
+            <li><a class="safemove-blue" href="#safemove-community">Safemove-community</a></li>
+            <li><a class="safemove-blue" href="#kontakt-os">Kontakt os</a></li>
+            <li><a class="safemove-blue" href="#modal1">Opret bruger</a></li>
+            <li><a class="waves-effect waves-light btn background-orange">Login</a></li>
           </ul>
         </div>
       </nav>

@@ -42,7 +42,7 @@
 
               <div class="row">
                 <div class="col m12">
-                  <button class="btn waves-effect waves-light" type="submit" name="action">Send besked
+                  <button class="btn waves-effect waves-light background-orange" type="submit" name="action">Send besked
                     <i class="material-icons right">send</i>
                   </button>
                 </div>
