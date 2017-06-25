@@ -17,12 +17,11 @@
 
     <body>
       <footer>
-          &nbsp;
         <div class="container">
           <div class="row">
             <div class ="col l6 s16">
               <ul>
-                <li><a class="black-text" href="#!">Cookies og privatlivspolitik</a></li>
+                <li><a class="black-text" href="#!"><font size="4">Cookies og privatlivspolitik</font></a></li>
               </ul>
             </div>
             <div class="col s5 push-s4">

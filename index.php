@@ -210,9 +210,14 @@
     </div>
 
     <div class=background-blue>
-      <div class="container">
-        <p class="center">Du er altid velkommen til at kontakte os</p>
+      <div>
+        <p class="contact-headline center-align">Du er altid velkommen til at kontakte os</p>
+        <?php include 'contact_form.php';?>
       </div>
+    </div>
+
+    <div>
+      <?php include 'footer.php';?>
     </div>
 
     <!--Import jQuery before materialize.js-->

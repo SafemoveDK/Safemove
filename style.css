@@ -19,6 +19,16 @@ body {
     background-color: #F28541;
 }
 
+.contact-headline {
+    font-size: 30px;
+    padding-top: 50px;
+    color: white;
+}
+
+.contact-text {
+    font-size: 40px;
+}
+
 .cover-img {
     height: 700px;
     background-image: url('img/gpsimages/aalborg1.jpeg');
