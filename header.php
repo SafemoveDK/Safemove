@@ -18,7 +18,7 @@
     <body>
       <nav>
         <div class="nav-wrapper">
-            <img src="img/logo.png"  style="height:60px">
+          <a href="index.php"><img src="img/logo.png"  style="height:60px"></a>
           <ul id="nav-mobile" class="right">
             <li><a class="safemove-blue" href="#safemove-community">Safemove-community</a></li>
             <li><a class="safemove-blue" href="#kontakt-os">Kontakt os</a></li>
