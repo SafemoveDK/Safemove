@@ -11,7 +11,7 @@ html, body {
 
 body {
     font-family: montserrat;
-    color: #F28541;
+    color: white;
 }
 
 a {
@@ -31,6 +31,10 @@ p {
 }
 
 .background-orange {
+    background-color: #F28541;
+}
+
+.btn:hover {
     background-color: #F28541;
 }
 
@@ -64,8 +68,21 @@ p {
     background-color: #3B5998;
 }
 
+.facebook-blue:hover {
+    background-color: #3B5998;
+}
+
 .grey-text {
     color: #75707A;
+}
+
+.input-field input[type=text]:focus + label, .materialize-textarea:focus:not([readonly]) + label {
+    color: #fff !important;
+}
+
+.input-field input[type=text]:focus, .materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #fff !important;
+    box-shadow: 0 1px 0 0 #fff !important;
 }
 
 .modalheader {
