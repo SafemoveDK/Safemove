@@ -210,7 +210,7 @@
       <br><br>
     </div>
 
-    <div class=background-blue>
+    <div class="background-blue">
       <div id="kontakt-os">
         <p class="contact-headline center-align">Du er altid velkommen til at kontakte os</p>
         <?php include 'contact_form.php';?>
