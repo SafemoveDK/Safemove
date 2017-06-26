@@ -187,7 +187,7 @@
             </div>
           </div>
 
-          <div id="safemove-community-info" class="col s12 m4">
+          <div class="col s12 m4">
             <div class="icon-block">
               <h2 class="center safemove-orange"><i class="fa fa-info"></i></h2>
               <h5 class="center safemove-blue">Information</h5>
@@ -207,11 +207,10 @@
         </div>
 
       </div>
-      <br><br>
     </div>
 
-    <div class="background-blue">
-      <div id="kontakt-os">
+    <div id="kontakt-os" class="background-blue">
+      <div>
         <p class="contact-headline center-align">Du er altid velkommen til at kontakte os</p>
         <?php include 'contact_form.php';?>
       </div>
