@@ -146,28 +146,61 @@
         </div>
         <div id="loginmodal">
           <form id="loginform" name="loginform" method="post" action="index.html">
-            <label for="username">Fornavn:</label>
-            <input type="text" name="username" id="username" class="txtfield" tabindex="1">
+            
+            <div class="row">
+              <div class="col s6">
+                <label for="username">Fornavn:</label>
+                <input type="text" name="username" id="username" class="txtfield safemove-blue" tabindex="1">
+              </div>
+            </div>
+            
+            <div class="row">
+              <div class="col s6">
+                <label for="username">Fornavn:</label>
+                <input type="text" name="username" id="username" class="txtfield safemove-blue" tabindex="1">
+              </div>
+            </div>
 
-            <label for="birthdate">Fødselsdato:</label>
-            <input type="number" name="birthdate" id="birthdate" class="txtfield" tabindex="2">
+            <div class="row">
+              <div class="col s6">
+                <label for="birthdate">Fødselsdato:</label>
+                <input type="date" name="birthdate" id="birthdate" class="txtfield safemove-blue" tabindex="2">
+              </div>
+            </div>             
+              
+            <div class="row">
+              <div class="col s6">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" class="txtfield safemove-blue" tabindex="3">
+              </div>
+            </div>            
+              
+            <div class="row">
+              <div class="col s6">
+                <label for="password">Adgangskode:</label>
+                <input type="password" name="password" id="password" class="txtfield safemove-blue" tabindex="4">
+              </div>
+            </div>             
+              
+            <div class="row">
+              <div class="col s6">
+                <label for="area">Vejnavn:</label>
+                <input type="text" name="area" id="area" class="txtfield safemove-blue" tabindex="5">
+              </div>
+            </div>
+            
+            <div class="row">
+              <div class="col s6">
+                <label for="phonenumber">Telefonnummer:</label>
+                <input type="tel" name="phonenumber" id="phonenumber" class="txtfield safemove-blue" tabindex="3">
+              </div>
+            </div>
 
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email" class="txtfield" tabindex="3">
-
-            <label for="password">Adgangskode:</label>
-            <input type="password" name="password" id="password" class="txtfield" tabindex="4">
-
-            <label for="area">Vejnavn:</label>
-            <input type="text" name="area" id="area" class="txtfield" tabindex="5">
-
-            <label for="phonenumber">Telefonnummer:</label>
-            <input type="tel" name="phonenumber" id="phonenumber" class="txtfield" tabindex="3">
           </form>
         </div>
       </div>
       <div class="modal-footer">
-        <a href="#!" class="modal-action modal-close btn-flat ">Agree</a>
+        <a href="#!" class="modal-action modal-close btn-flat ">Opret</a>
       </div>
     </div>
 
