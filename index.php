@@ -142,10 +142,9 @@
     <div id="modal1" class="modal modal-fixed-footer">
       <div class="modal-content">
         <div class="modalheader">
-          <h4>Modal Header</h4>
+          <h4>Opret bruger</h4>
         </div>
-        <div id="loginmodal" style="display:none;">
-          <h1>Opret bruger</h1>
+        <div id="loginmodal">
           <form id="loginform" name="loginform" method="post" action="index.html">
             <label for="username">Fornavn:</label>
             <input type="text" name="username" id="username" class="txtfield" tabindex="1">
@@ -164,8 +163,6 @@
 
             <label for="phonenumber">Telefonnummer:</label>
             <input type="tel" name="phonenumber" id="phonenumber" class="txtfield" tabindex="3">
-
-            <div class="center"><input type="submit" name="loginbtn" id="loginbtn" class="flatbtn-blu hidemodal" value="Log In" tabindex="3"></div>
           </form>
         </div>
       </div>
