@@ -16,10 +16,11 @@
     </head>
 
     <body>
+
       <div class="container">
 
         <div class="row">
-          <form class="col s12">
+          <form action="mail.php" method="POST" class="col s12">
             <div class="row">
 
               <div class="row">
@@ -28,8 +29,8 @@
                     <label for="name">Navn</label>
                 </div>
                 <div class="input-field col s6">
-                    <input id="mail" type="text" class="validate">
-                    <label for="mail">E-mail</label>
+                    <input id="email" type="text" class="validate">
+                    <label for="email">E-mail</label>
                 </div>
               </div>
 
