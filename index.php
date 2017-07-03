@@ -100,8 +100,8 @@
 <!--<fb:login-button data-scope="public_profile,email" data-onlogin="checkLoginState();">
 </fb:login-button> -->
 
-  <div id="status">
-  </div>
+    <div id="status">
+    </div>
 
     <!-- Header -->
     <?php include 'header.php';?>
@@ -125,6 +125,7 @@
       </div>
 
     </div>
+
     <!-- Frontpage facbook login and rate area -->
     <div class="rate-area-login center">
       <!-- <div class="fb-login-button" data-max-rows="1" data-size="large" data-button-type="continue_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="false"></div> -->
@@ -138,69 +139,53 @@
       </div>
     </div>
 
-    <!-- Login modal -->
+    <!-- Create user modal -->
     <div id="modal1" class="modal modal-fixed-footer">
-      <div class="modal-content">
+
         <div class="modalheader">
-          <h4>Opret bruger</h4>
+          &nbsp;
+          <h4 class="center">Opret bruger</h4>
         </div>
+
         <div id="loginmodal">
           <form id="loginform" name="loginform" method="post" action="index.html">
-            
-            <div class="row">
-              <div class="col s6">
-                <label for="username">Fornavn:</label>
-                <input type="text" name="username" id="username" class="txtfield safemove-blue" tabindex="1">
-              </div>
-            </div>
-            
-            <div class="row">
-              <div class="col s6">
-                <label for="username">Fornavn:</label>
-                <input type="text" name="username" id="username" class="txtfield safemove-blue" tabindex="1">
-              </div>
-            </div>
+            &nbsp;
+            <div class="container">
 
-            <div class="row">
-              <div class="col s6">
-                <label for="birthdate">Fødselsdato:</label>
-                <input type="date" name="birthdate" id="birthdate" class="txtfield safemove-blue" tabindex="2">
+              <div class="row">
+                <div class="col s6">
+                  <label for="fname" class="safemove-blue">Fornavn:</label>
+                  <input type="text" name="fname" id="fname" class="txtfield safemove-blue" tabindex="1" required>
+                </div>
+                <div class="col s6">
+                  <label for="lname" class="safemove-blue">Efternavn:</label>
+                  <input type="text" name="lname" id="lname" class="txtfield safemove-blue" tabindex="2" required>
+                </div>
+                <div class="col s12">
+                  <label for="birthdate" class="safemove-blue">Fødselsdato:</label>
+                  <input type="date" name="birthdate" id="birthdate" class="txtfield safemove-blue" tabindex="3" required>
+                </div>
+                <div class="col s12">
+                  <label for="email" class="safemove-blue">Email:</label>
+                  <input type="email" name="email" id="email" class="txtfield safemove-blue" tabindex="4" required>
+                </div>
+                <div class="col s6">
+                  <label for="password" class="safemove-blue">Adgangskode:</label>
+                  <input type="password" name="password" id="password" class="txtfield safemove-blue" tabindex="5" required>
+                </div>
+                <div class="col s6">
+                  <label for="password" class="safemove-blue">Bekræft adgangskode:</label>
+                  <input type="password" name="password" id="password" class="txtfield safemove-blue" tabindex="6" required>
+                </div>
               </div>
-            </div>             
-              
-            <div class="row">
-              <div class="col s6">
-                <label for="email">Email:</label>
-                <input type="email" name="email" id="email" class="txtfield safemove-blue" tabindex="3">
-              </div>
-            </div>            
-              
-            <div class="row">
-              <div class="col s6">
-                <label for="password">Adgangskode:</label>
-                <input type="password" name="password" id="password" class="txtfield safemove-blue" tabindex="4">
-              </div>
-            </div>             
-              
-            <div class="row">
-              <div class="col s6">
-                <label for="area">Vejnavn:</label>
-                <input type="text" name="area" id="area" class="txtfield safemove-blue" tabindex="5">
-              </div>
-            </div>
-            
-            <div class="row">
-              <div class="col s6">
-                <label for="phonenumber">Telefonnummer:</label>
-                <input type="tel" name="phonenumber" id="phonenumber" class="txtfield safemove-blue" tabindex="3">
-              </div>
+
             </div>
 
           </form>
         </div>
-      </div>
+
       <div class="modal-footer">
-        <a href="#!" class="modal-action modal-close btn-flat ">Opret</a>
+        <a href="#!" class="modal-action modal-close btn-flat white-text background-orange">Opret bruger</a>
       </div>
     </div>
 

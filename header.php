@@ -23,7 +23,7 @@
             <li><a class="safemove-blue" href="#safemove-community">Safemove-community</a></li>
             <li><a class="safemove-blue" href="#kontakt-os">Kontakt os</a></li>
             <li><a class="safemove-blue" href="#modal1">Opret bruger</a></li>
-            <li><a class="waves-effect waves-light btn background-orange">Login</a></li>
+            <li><a class="waves-effect waves-light btn background-orange" href="#">Login</a></li>
           </ul>
         </div>
       </nav>
