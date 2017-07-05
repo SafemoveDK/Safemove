@@ -4,7 +4,6 @@
     $db_username = ´root´;
     $db_password = ´´;
     
-    require_once ´openDatabase.php´;
     $connection = mysqli_connect($db_hostname, $db_username, $db_password);
     
     if(!$connection)
@@ -17,5 +16,5 @@
     if(!$selected_db)
     {
         die("Kunne ikke vælge database: " . mysqli_connect_error());
-    }
+    } 
 ?>
