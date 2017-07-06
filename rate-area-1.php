@@ -16,29 +16,35 @@
 
     <body>
 
-      <div class="bedom background-blue">
-        <h3 class="white-text center">Bedøm dit område</h3>
+      <!-- Header -->
+      <?php include 'header.php';?>
+
+      <div class="background-blue">
+        <h3 class="rate-header center">Bedøm dit område</h3>
       </div>
 
       <div class="container">
+        <br />
         <div class="row">
-          <div class="col s6">
-            <p>Find din adresse</p>
+          <div class="col s2">
+            <p><b>Find din adresse</b></p>
           </div>
-          <div id="locationField" class="col s6">
+          <div id="locationField" class="col s10">
             <input id="autocomplete" placeholder="Indtast din adresse:"
                    onFocus="geolocate()" type="text"></input>
           </div>
         </div>
 
         <div class="col s6">
-          <p>Du har valgt følgende adresse:</p>
+          <p><b>Du har valgt følgende adresse:</b></p>
         </div>
 
-        <table id="address">
+        <table id="address" class="chosen-address">
           <tr>
-            <td class="label">Vejnavn</td>
-            <td class="wideField" colspan="2"><input class="field" id="route"
+            <td class="label">Adresse</td>
+            <td class="wideField" colspan="3"><input class="field" id="route"
+                  disabled="true" readonly></input></td>
+            <td class="slimField"><input class="field" id="street_number"
                   disabled="true"></input></td>
           </tr>
           <tr>
@@ -47,19 +53,20 @@
                  You may need to adjust it for the locations relevant to your app. See
                  https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-addressform
             -->
-            <td class="wideField" colspan="3"><input class="field" id="locality"
-                  disabled="true"></input></td>
+            <td class="wideField" colspan="2"><input class="field" id="locality"
+                  disabled="true" readonly></input></td>
           </tr>
           <tr>
             <td class="label">Postnummer</td>
             <td class="wideField"><input class="field" id="postal_code"
-                  disabled="true"></input></td>
+                  disabled="true" readonly></input></td>
           </tr>
         </table>
 
         <div class="row right">
           <div class="col m12">
-            <button class="btn waves-effect waves-light background-orange" type="submit" name="action">Videre</button>
+            <br />
+            <button class="btn waves-effect waves-light background-orange" type="submit" name="action">Gå til bedømmelse</button>
           </div>
         </div>
 
@@ -76,6 +83,7 @@
         var placeSearch, autocomplete;
         var componentForm = {
           route: 'long_name',
+          street_number: 'short_name',
           locality: 'long_name',
           postal_code: 'short_name'
         };

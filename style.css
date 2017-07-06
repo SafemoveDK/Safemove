@@ -38,6 +38,11 @@ p {
     background-color: #F28541;
 }
 
+.chosen-address {
+    background-color: #CCCCCC;
+    border-radius: 5px;
+}
+
 .contact-headline {
     font-size: 30px;
     padding-top: 50px;
@@ -110,6 +115,13 @@ p {
     position: relative;
     height: 300px;
 }
+
+.rate-header {
+    margin: 0;
+    padding: 20px;
+    color: white;
+}
+
 
 .safemove-blue {
     color: #1B4965;
