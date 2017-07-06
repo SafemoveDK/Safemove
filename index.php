@@ -152,45 +152,52 @@
         </div>
 
         <div id="loginmodal">
-          <form id="loginform" name="loginform" method="post" action="index.html">
+          <form id="loginform" name="loginform" method="post" action="createuserdb.php">
             <br />
             <div class="container">
 
               <div class="row">
+                
                 <div class="col s6">
                   <label for="fname" class="safemove-blue">Fornavn:</label>
                   <input type="text" name="fname" id="fname" class="txtfield safemove-blue" tabindex="1" required>
                 </div>
+                
                 <div class="col s6">
                   <label for="lname" class="safemove-blue">Efternavn:</label>
                   <input type="text" name="lname" id="lname" class="txtfield safemove-blue" tabindex="2" required>
                 </div>
+                
                 <div class="col s12">
                   <label for="birthdate" class="safemove-blue">Fødselsdato:</label>
                   <input type="date" name="birthdate" id="birthdate" class="txtfield safemove-blue" tabindex="3" required>
                 </div>
+                
                 <div class="col s12">
                   <label for="email" class="safemove-blue">Email:</label>
                   <input type="email" name="email" id="email" class="txtfield safemove-blue" tabindex="4" required>
                 </div>
+                
                 <div class="col s6">
                   <label for="password" class="safemove-blue">Adgangskode:</label>
                   <input type="password" name="password" id="password" class="txtfield safemove-blue" tabindex="5" required>
                 </div>
+                
                 <div class="col s6">
                   <label for="password" class="safemove-blue">Bekræft adgangskode:</label>
-                  <input type="password" name="password" id="password" class="txtfield safemove-blue" tabindex="6" required>
+                  <input type="password" name="confpassword" id="confpassword" class="txtfield safemove-blue" tabindex="6" required>
                 </div>
+                
               </div>
 
             </div>
-
+            <div class="modal-footer">
+              <a href="#!" <input type"submit" class="modal-action modal-close btn-flat white-text background-orange">Opret bruger</a>
+            </div>
           </form>
         </div>
 
-      <div class="modal-footer">
-        <a href="#!" class="modal-action modal-close btn-flat white-text background-orange">Opret bruger</a>
-      </div>
+
     </div>
 
     <div id="safemove-community" class="container">
