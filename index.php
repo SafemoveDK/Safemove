@@ -192,7 +192,7 @@
 
             </div>
             <div class="modal-footer">
-              <a href="#!" <input type"submit" class="modal-action modal-close btn-flat white-text background-orange">Opret bruger</a>
+              <button class="modal-action modal-close btn-flat white-text background-orange">Opret bruger</button>
             </div>
           </form>
         </div>
