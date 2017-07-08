@@ -30,7 +30,7 @@
             <p><b>Find din adresse</b></p>
           </div>
           <div id="locationField" class="col s10">
-            <input id="autocomplete" placeholder="Indtast din adresse:"
+            <input id="autocomplete" placeholder="Indtast din adresse ..."
                    onFocus="geolocate()" type="text"></input>
           </div>
         </div>
@@ -69,7 +69,16 @@
             <button class="btn waves-effect waves-light background-orange" type="submit" name="action">Gå til bedømmelse</button>
           </div>
         </div>
+      </div>
 
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <div>
+        <?php include 'footer.php';?>
       </div>
 
       <script>
