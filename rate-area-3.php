@@ -22,51 +22,30 @@
       <div class="background-blue">
         <h3 class="rate-header center">Bedøm dit område</h3>
         <div class="progress">
-          <div class="determinate" style="width: 66%"></div>
+          <div class="determinate" style="width: 100%"></div>
         </div>
       </div>
 
-      <div class="container">
+      <?php
+          $first_name = "Zaki";
+      ?>
 
-        <table class="striped">
-          <thead>
-            <tr>
-                <th>Parameter</th>
-                <th class="center">Rating</th>
-            </tr>
-          </thead>
+      <div class="container center">
 
-          <tbody>
-            <tr>
-              <td>Bla bla bla</td>
-              <td class="center">1-5</td>
-            </tr>
-            <tr>
-              <td>Bla bla bla</td>
-              <td class="center">1-5</td>
-            </tr>
-            <tr>
-              <td>Bla bla bla</td>
-              <td class="center">1-5</td>
-            </tr>
-            <tr>
-              <td>Bla bla bla</td>
-              <td class="center">1-5</td>
-            </tr>
-            <tr>
-              <td>Bla bla bla</td>
-              <td class="center">1-5</td>
-            </tr>
-          </tbody>
-        </table>
-
+        <i class="material-icons check-icon safemove-orange">done</i>
+        <h5><b>Tillykke <?php echo $first_name ?>!</b></h5>
+        <br />
+        <h5>Du har nu foretaget din bedømmelse. Tak og ha' en god dag :-)</h5>
       </div>
+
+      <br />
+      <br />
 
       <div class="container">
         <div class="row right">
           <div class="col m12">
             <br />
-            <a href="rate-area-3.php"><button class="btn waves-effect waves-light background-orange" type="submit" name="action">Gennemfør bedømmelse</button></a>
+            <a href="min-profil.php"><button class="btn waves-effect waves-light background-orange" type="submit" name="action">Gå til min profil</button></a>
           </div>
         </div>
       </div>

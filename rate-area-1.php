@@ -21,7 +21,13 @@
 
       <div class="background-blue">
         <h3 class="rate-header center">Bedøm dit område</h3>
+        <div class="progress">
+          <div class="determinate" style="width: 33%"></div>
+        </div>
       </div>
+
+
+
 
       <div class="container">
         <br />
@@ -45,7 +51,7 @@
             <td class="wideField" colspan="3"><input class="field" id="route"
                   disabled="true" readonly></input></td>
             <td class="slimField"><input class="field" id="street_number"
-                  disabled="true"></input></td>
+                  disabled="true" readonly></input></td>
           </tr>
           <tr>
             <td class="label">By</td>
@@ -66,7 +72,7 @@
         <div class="row right">
           <div class="col m12">
             <br />
-            <button class="btn waves-effect waves-light background-orange" type="submit" name="action">Gå til bedømmelse</button>
+            <a href="rate-area-2.php"><button class="btn waves-effect waves-light background-orange" type="submit" name="action">Gå til bedømmelse</button></a>
           </div>
         </div>
       </div>
@@ -77,9 +83,15 @@
       <br />
       <br />
 
-      <div>
-        <?php include 'footer.php';?>
+      <div class="background-blue">
+        &nbsp;
+        <p class="container white-text center-align">© Safemove 2017. Alle rettigheder forbeholdes.</p>
+        &nbsp;
       </div>
+
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
 
       <script>
         // This example displays an address form, using the autocomplete feature
