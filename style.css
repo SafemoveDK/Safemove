@@ -109,6 +109,16 @@ p {
     z-index: 1 !important;
     position: relative;
 }
+.my-profile-box {
+    background-color: #fff;
+    position: relative;
+    width: 80%;
+    height: 200px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #B3B5B8;
+    border-radius: 8px;
+}
 
 .nav-wrapper {
     background-color: #fff;

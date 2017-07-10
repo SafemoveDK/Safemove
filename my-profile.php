@@ -35,7 +35,8 @@
             </div>
             <div id="personalInfo" class="col s12">
                 <br />
-                <div align="left">
+                <div align="left" class="my-profile-box">
+                   <br />
                    bla bla bla 
                 </div>
             </div>
@@ -45,7 +46,6 @@
         
       </div>
 
-      <br />
       <br />
 
       <div class="container">
