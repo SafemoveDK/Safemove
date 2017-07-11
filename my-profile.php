@@ -33,13 +33,31 @@
                     <li class="tab col s6"><a href="#myRatings">Mine ratings</a></li>
                 </ul>
             </div>
+            
             <div id="personalInfo" class="col s12">
                 <br />
-                <div align="left" class="my-profile-box">
-                   <br />
-                   Fulde navn
+                <div align="left" class="">
+                  <br />
+                  <div class="row">
+                    <div class=" col s6">
+                      <label class="active safemove-blue" for="mp_name">Fulde navn:</label>
+                      <input disabled value="Sofie Pedersen" id="mp_name" class="txtfield safemove-blue" type="text" class="validate">
+                        <a class="btn-floating safemove-orange">
+                          <i class="material-icons safemove-orange">mode_edit</i>
+                        </a>
+                    </div>
+                  </div>
+                   
+                  <div class="row">
+                    <div class="col s6">
+                      <label class="active safemove-blue" for="first_name2">Fødselsdato:</label>
+                      <input disabled value="01/01/1990" id="first_name2" class="txtfield" type="text" class="validate">
+                    </div>
+                  </div>
+                
                 </div>
             </div>
+            
             <div id="myRatings" class="col s12">Mine ratings</div>
 
         </div>
