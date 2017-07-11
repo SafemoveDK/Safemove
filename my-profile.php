@@ -37,7 +37,7 @@
                 <br />
                 <div align="left" class="my-profile-box">
                    <br />
-                   bla bla bla 
+                   Fulde navn
                 </div>
             </div>
             <div id="myRatings" class="col s12">Mine ratings</div>
