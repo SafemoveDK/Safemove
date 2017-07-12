@@ -37,24 +37,88 @@
             <div id="personalInfo" class="col s12">
                 <br />
                 <div align="left" class="">
-                  <br />
-                  <div class="row">
-                    <div class=" col s6">
-                      <label class="active safemove-blue" for="mp_name">Fulde navn:</label>
-                      <input disabled value="Sofie Pedersen" id="mp_name" class="txtfield safemove-blue" type="text" class="validate">
-                        <a class="btn-floating safemove-orange">
-                          <i class="material-icons safemove-orange">mode_edit</i>
-                        </a>
+                    <div class="row">
+                      <div class="col s4">
+                        <label class="active safemove-blue" for="mp_name">Fulde navn:</label>
+                        <input disabled value="Sofie Pedersen" id="mp_name" class="txtfield safemove-blue" type="text" class="validate">
+                      </div>
                     </div>
-                  </div>
+                   
                    
                   <div class="row">
-                    <div class="col s6">
-                      <label class="active safemove-blue" for="first_name2">Fødselsdato:</label>
-                      <input disabled value="01/01/1990" id="first_name2" class="txtfield" type="text" class="validate">
+                    <div class="col s4">
+                      <label class="active safemove-blue" for="mp_birthdate">Fødselsdato:</label>
+                      <input disabled value="01/01/1990" id="mp_birthdate" class="txtfield" type="text" class="validate">
                     </div>
                   </div>
-                
+                  
+                  <div class="row">
+                    <div class="col s4">
+                      <label class="active safemove-blue" for="mp_email">Email:</label>
+                      <input disabled value="sofiepedersen@hotmail.com" id="mp_email" class="txtfield" type="email" class="validate">
+                    </div>
+                  </div>
+                  
+                  <div id="change-password">
+                    <a class="waves-effect waves-light btn background-orange" href="#change-password">Skift adgangskode</a>
+                  </div>
+                  
+                  <!-- Create user modal -->
+    <div id="create-user-modal" class="modal modal-fixed-footer">
+
+        <div class="modalheader">
+          <br />
+          <h4 class="center">Opret bruger</h4>
+        </div>
+
+        <div id="loginmodal">
+          <form id="loginform" name="loginform" method="post" action="createuserdb.php">
+            <br />
+            <div class="container">
+
+              <div class="row">
+
+                <div class="col s6">
+                  <label for="fname" class="safemove-blue">Fornavn:</label>
+                  <input type="text" name="fname" id="fname" class="txtfield safemove-blue" tabindex="1" required>
+                </div>
+
+                <div class="col s6">
+                  <label for="lname" class="safemove-blue">Efternavn:</label>
+                  <input type="text" name="lname" id="lname" class="txtfield safemove-blue" tabindex="2" required>
+                </div>
+
+                <div class="col s12">
+                  <label for="birthdate" class="safemove-blue">Fødselsdato:</label>
+                  <input type="date" name="birthdate" id="birthdate" class="txtfield safemove-blue" tabindex="3" required>
+                </div>
+
+                <div class="col s12">
+                  <label for="email" class="safemove-blue">Email:</label>
+                  <input type="email" name="email" id="email" class="txtfield safemove-blue" tabindex="4" required>
+                </div>
+
+                <div class="col s6">
+                  <label for="password" class="safemove-blue">Adgangskode:</label>
+                  <input type="password" name="password" id="password" class="txtfield safemove-blue" tabindex="5" required>
+                </div>
+
+                <div class="col s6">
+                  <label for="password" class="safemove-blue">Bekræft adgangskode:</label>
+                  <input type="password" name="confpassword" id="confpassword" class="txtfield safemove-blue" tabindex="6" required>
+                </div>
+
+              </div>
+
+            </div>
+            <div class="modal-footer">
+              <button class="modal-action modal-close btn-flat white-text background-orange">Opret bruger</button>
+            </div>
+          </form>
+        </div>
+
+
+    </div>
                 </div>
             </div>
             
@@ -64,19 +128,6 @@
         
       </div>
 
-      <br />
-
-      <div class="container">
-        <div class="row right">
-          <div class="col m12">
-            <br />
-            <a href="min-profil.php"><button class="btn waves-effect waves-light background-orange" type="submit" name="action">Gå til min profil</button></a>
-          </div>
-        </div>
-      </div>
-
-      <br />
-      <br />
       <br />
       <br />
       <br />
@@ -93,3 +144,14 @@
 
     </body>
   </html>
+  
+  <script>
+    $('#change-password').modal({
+        dismissible: true, // Modal can be dismissed by clicking outside of the modal
+        opacity: .5, // Opacity of modal background
+        ready: function(modal, trigger) { // Callback for Modal open. Modal and trigger parameters available.
+          console.log(modal, trigger);
+        },// Callback for Modal close
+        }
+      );
+  </script>

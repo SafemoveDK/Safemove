@@ -45,7 +45,7 @@
         <div class="row right">
           <div class="col m12">
             <br />
-            <a href="min-profil.php"><button class="btn waves-effect waves-light background-orange" type="submit" name="action">Gå til min profil</button></a>
+            <a href="my-profile.php"><button class="btn waves-effect waves-light background-orange" type="submit" name="action">Gå til min profil</button></a>
           </div>
         </div>
       </div>
