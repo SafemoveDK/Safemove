@@ -22,6 +22,24 @@ p {
     font-size: 16px;
 }
 
+.area-overview {
+    height: 60px;
+}
+
+.area-overview > a, .area-overview > i {
+    font-size: 22px;
+    padding-top: 12px;
+}
+
+.area-comment {
+    height: 60px;
+}
+
+.area-comment > a, .area-comment > i {
+    font-size: 22px;
+    padding-top: 12px;
+}
+
 .background-blue {
     background-color: #1B4965;
 }
@@ -92,6 +110,10 @@ p {
 .input-field input[type=text]:focus, .materialize-textarea:focus:not([readonly]) {
     border-bottom: 1px solid #fff !important;
     box-shadow: 0 1px 0 0 #fff !important;
+}
+
+.left-border {
+    border-left: 2px #1B4965 solid;
 }
 
 .modal {
