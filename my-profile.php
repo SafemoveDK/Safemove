@@ -29,8 +29,8 @@
         <div class="row">
             <div class="col s12">
                 <ul class="tabs">
-                    <li class="tab col s6"><a class="active" href="#personalInfo">Personlige oplysninger</a></li>
-                    <li class="tab col s6"><a href="#myRatings">Mine ratings</a></li>
+                    <li class="tab col s6"><a href="#personalInfo">Personlige oplysninger</a></li>
+                    <li class="tab col s6"><a class="active" href="#myRatings">Mine ratings</a></li>
                 </ul>
             </div>
             
@@ -59,66 +59,51 @@
                     </div>
                   </div>
                   
-                  <div id="change-password">
+                  <div>
                     <a class="waves-effect waves-light btn background-orange" href="#change-password">Skift adgangskode</a>
                   </div>
                   
                   <!-- Create user modal -->
-    <div id="create-user-modal" class="modal modal-fixed-footer">
-
-        <div class="modalheader">
-          <br />
-          <h4 class="center">Opret bruger</h4>
-        </div>
-
-        <div id="loginmodal">
-          <form id="loginform" name="loginform" method="post" action="createuserdb.php">
-            <br />
-            <div class="container">
-
-              <div class="row">
-
-                <div class="col s6">
-                  <label for="fname" class="safemove-blue">Fornavn:</label>
-                  <input type="text" name="fname" id="fname" class="txtfield safemove-blue" tabindex="1" required>
+                <div id="change-password" class="modal modal">
+            
+                    <div class="modalheader">
+                      <br />
+                      <h4 class="center">Opret bruger</h4>
+                    </div>
+            
+                    <div id="changepassmodal">
+                      <form id="changepassform" name="changepassform" method="post" action=".php">
+                        <br />
+                        <div class="container">
+            
+                          <div class="row">
+                            
+                            <div class="col s12">
+                              <label for="password" class="safemove-blue">Nuværende adgangskode:</label>
+                              <input type="password" name="password" id="password" class="txtfield safemove-blue" tabindex="5" required>
+                            </div>
+            
+                            <div class="col s12">
+                              <label for="password" class="safemove-blue">Ny adgangskode:</label>
+                              <input type="password" name="newpassword" id="newpassword" class="txtfield safemove-blue" tabindex="5" required>
+                            </div>
+            
+                            <div class="col s12">
+                              <label for="password" class="safemove-blue">Bekræft ny adgangskode:</label>
+                              <input type="password" name="confnewpassword" id="confnewpassword" class="txtfield safemove-blue" tabindex="6" required>
+                            </div>
+            
+                          </div>
+            
+                        </div>
+                        <div class="modal-footer">
+                          <button class="modal-action modal-close btn-flat white-text background-orange">Skift adgangskode</button>
+                        </div>
+                      </form>
+                    </div>
+            
+            
                 </div>
-
-                <div class="col s6">
-                  <label for="lname" class="safemove-blue">Efternavn:</label>
-                  <input type="text" name="lname" id="lname" class="txtfield safemove-blue" tabindex="2" required>
-                </div>
-
-                <div class="col s12">
-                  <label for="birthdate" class="safemove-blue">Fødselsdato:</label>
-                  <input type="date" name="birthdate" id="birthdate" class="txtfield safemove-blue" tabindex="3" required>
-                </div>
-
-                <div class="col s12">
-                  <label for="email" class="safemove-blue">Email:</label>
-                  <input type="email" name="email" id="email" class="txtfield safemove-blue" tabindex="4" required>
-                </div>
-
-                <div class="col s6">
-                  <label for="password" class="safemove-blue">Adgangskode:</label>
-                  <input type="password" name="password" id="password" class="txtfield safemove-blue" tabindex="5" required>
-                </div>
-
-                <div class="col s6">
-                  <label for="password" class="safemove-blue">Bekræft adgangskode:</label>
-                  <input type="password" name="confpassword" id="confpassword" class="txtfield safemove-blue" tabindex="6" required>
-                </div>
-
-              </div>
-
-            </div>
-            <div class="modal-footer">
-              <button class="modal-action modal-close btn-flat white-text background-orange">Opret bruger</button>
-            </div>
-          </form>
-        </div>
-
-
-    </div>
                 </div>
             </div>
             
