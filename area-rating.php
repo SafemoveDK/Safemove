@@ -118,41 +118,32 @@
 
         </div>
 
-        <div class="row background-blue">
-          <div class="col s6 area-overview">
-            <i class="material-icons prefix safemove-orange">location_on</i>
-            <a class="white-text">Oversigt over område</a>
-          </div>
+        <ul class="collapsible" data-collapsible="expandable">
+            <li>
+              <div class="collapsible-header active background-blue white-text"><i class="material-icons safemove-orange">location_on</i>Oversigt over område</div>
+              <div class="collapsible-body">
+                <div class="row">
 
-          <div class="col s6 center area-overview">
-          </div>
-        </div>
+                  <div class="col s6">
+                    <div id="map"></div>
+                  </div>
 
-        <div class="row">
+                  <div class="col s6 center left-border">
+                    <p>PARAMETER 1</p>
+                    <p>PARAMETER 2</p>
+                    <p>PARAMETER 3</p>
+                    <p>PARAMETER 4</p>
+                    <p>PARAMETER 5</p>
+                  </div>
 
-          <div class="col s6">
-            <div id="map"></div>
-          </div>
-
-          <div class="col s6 center left-border">
-            <p>PARAMETER 1</p>
-            <p>PARAMETER 2</p>
-            <p>PARAMETER 3</p>
-            <p>PARAMETER 4</p>
-            <p>PARAMETER 5</p>
-          </div>
-
-        </div>
-
-        <div class="row background-blue">
-          <div class="col s6 area-comment">
-            <i class="material-icons prefix safemove-orange">comment</i>
-            <a class="white-text">Kommentarer</a>
-          </div>
-
-          <div class="col s6 center area-comment">
-          </div>
-        </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="collapsible-header active background-blue white-text"><i class="material-icons safemove-orange">comment</i>Kommentarer</div>
+              <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+            </li>
+          </ul>
 
         <div class="background-blue">
           &nbsp;

@@ -22,24 +22,6 @@ p {
     font-size: 16px;
 }
 
-.area-overview {
-    height: 60px;
-}
-
-.area-overview > a, .area-overview > i {
-    font-size: 22px;
-    padding-top: 12px;
-}
-
-.area-comment {
-    height: 60px;
-}
-
-.area-comment > a, .area-comment > i {
-    font-size: 22px;
-    padding-top: 12px;
-}
-
 .background-blue {
     background-color: #1B4965;
 }
@@ -67,6 +49,7 @@ p {
 .collapsible-header{
     height: 50px !important;
 }
+
 .contact-headline {
     font-size: 30px;
     padding-top: 50px;
@@ -133,6 +116,7 @@ p {
     z-index: 1 !important;
     position: relative;
 }
+
 .my-profile-box {
     background-color: #fff;
     position: relative;
@@ -150,17 +134,17 @@ p {
 }
 
 .overall-rating {
-    height: 80px;
+    height: 70px;
 }
 
 .overall-rating > a, .overall-rating > i {
-    font-size: 34px;
+    font-size: 30px;
     padding-top: 15px;
 }
 
 .rate-area, .rate-area > i {
-    height: 80px;
-    font-size: 34px;
+    height: 70px;
+    font-size: 30px;
     padding-top: 15px;
 }
 
