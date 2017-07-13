@@ -1,20 +1,3 @@
-<!DOCTYPE html>
-  <html>
-    <head>
-      <!--Import Google Icon Font-->
-      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!--Import Font Awesome-->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
-      <link type="text/css" rel="stylesheet" href="./style.css"/>
-      <meta charset="iso-8859-1" />
-      <!-- Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <title>Safemove - </title>
-    </head>
-
-    <body>
 
       <!-- Header -->
       <?php include 'header.php';?>
@@ -113,7 +96,7 @@
               ?>
               <ul class="collapsible" data-collapsible="accordion">
                 <li>
-                  <div class="collapsible-header active">
+                  <div class="collapsible-header ">
                     <i class="material-icons">filter_drama</i><div align="left" class="col s9"><?php echo $street_name?> </div>
                   </div>
                   
@@ -155,27 +138,17 @@
       <br />
       <br />
       <br />
-
-      <div class="background-blue">
-        &nbsp;
-        <p class="container white-text center-align">© Safemove 2017. Alle rettigheder forbeholdes.</p>
-        &nbsp;
-      </div>
-
-      <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
-
-    </body>
-  </html>
   
-  <script>
-    $('#change-password').modal({
-        dismissible: true, // Modal can be dismissed by clicking outside of the modal
-        opacity: .5, // Opacity of modal background
-        ready: function(modal, trigger) { // Callback for Modal open. Modal and trigger parameters available.
-          console.log(modal, trigger);
-        },// Callback for Modal close
-        }
-      );
-  </script>
+    <script>
+      $('#change-password').modal({
+          dismissible: true, // Modal can be dismissed by clicking outside of the modal
+          opacity: .5, // Opacity of modal background
+          ready: function(modal, trigger) { // Callback for Modal open. Modal and trigger parameters available.
+            console.log(modal, trigger);
+          },// Callback for Modal close
+          }
+        );
+    </script>
+    
+    <!-- Footer -->
+    <?php include 'footer.php';?>
