@@ -64,7 +64,9 @@ p {
     background-color: #CCCCCC;
     border-radius: 5px;
 }
-
+.collapsible-header{
+    height: 50px !important;
+}
 .contact-headline {
     font-size: 30px;
     padding-top: 50px;
@@ -134,8 +136,9 @@ p {
 .my-profile-box {
     background-color: #fff;
     position: relative;
-    width: 80%;
-    height: 200px;
+    width: 40%;
+    height: 40px;
+    padding-bottom: -5px;
     border-style: solid;
     border-width: thin;
     border-color: #B3B5B8;

@@ -63,7 +63,7 @@
                     <a class="waves-effect waves-light btn background-orange" href="#change-password">Skift adgangskode</a>
                   </div>
                   
-                  <!-- Create user modal -->
+                  <!-- Change password modal -->
                 <div id="change-password" class="modal modal">
             
                     <div class="modalheader">
@@ -107,7 +107,46 @@
                 </div>
             </div>
             
-            <div id="myRatings" class="col s12">Mine ratings</div>
+            <div id="myRatings" class="col s12">
+              <?php
+                $street_name = "Danmarksgade 9, 9000 Aalborg";
+              ?>
+              <ul class="collapsible" data-collapsible="accordion">
+                <li>
+                  <div class="collapsible-header active">
+                    <i class="material-icons">filter_drama</i><div align="left" class="col s9"><?php echo $street_name?> </div>
+                  </div>
+                  
+                  <div class="collapsible-body">
+                    <div class="row center">
+                      <div class="col s6 right-border">
+                        <p>PARAMETER 1</p>
+                        <p>PARAMETER 3</p>
+                        <p>PARAMETER 5</p>
+                        <p>PARAMETER 7</p>
+                      </div>
+            
+                      <div class="col s6">
+                        <p>PARAMETER 2</p>
+                        <p>PARAMETER 4</p>
+                        <p>PARAMETER 6</p>
+                        <p>PARAMETER 8</p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </li>
+                <li>
+                  <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+                  <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                </li>
+                <li>
+                  <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+                  <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                </li>
+              </ul>
+              
+            </div>
 
         </div>
         
