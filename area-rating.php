@@ -1,3 +1,5 @@
+      <!-- Header -->
+      <?php include 'header.php';?>
 
       <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
       </script>
@@ -59,9 +61,6 @@
           {lat: -43.999792, lng: 170.463352}
         ]
       </script>
-
-      <!-- Header -->
-      <?php include 'header.php';?>
 
       <?php
           $street_name = "Danmarksgade 9, 9000 Aalborg";
