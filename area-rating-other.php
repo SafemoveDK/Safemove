@@ -85,31 +85,36 @@
           $street_name = "Danmarksgade 9, 9000 Aalborg";
       ?>
 
-      <div>
+      <div class="">
 
         <br />
         <br />
 
         <div class="container">
+
           <div class="row">
-            <div id="locationField" class="col s6">
+
+            <div id="locationField" class="col s5">
               <input id="autocomplete" placeholder="Indtast din adresse ..."
                      onFocus="geolocate()" type="text"></input>
             </div>
 
-            <div class="col s2">
-              <button class="btn waves-effect waves-light background-blue" type="submit" name="action">Søg
-                <i class="material-icons left">search</i>
+            <div class="col s4">
+              <button class="btn waves-effect waves-light background-blue" type="submit" name="action">Vis bedømmelse
+                <i class="fa fa-heart left safemove-orange"></i>
               </button>
             </div>
 
             <div class="col s3 right">
-              <button class="btn waves-effect waves-light background-orange" type="submit" name="action">Bedøm område
-                <i class="material-icons right">play_arrow</i>
-              </button>
+              <a href="rate-area-1.php">
+                <button class="btn waves-effect waves-light background-orange" type="submit" name="action">Bedøm område
+                  <i class="material-icons right">play_arrow</i>
+                </button>
+              </a>
             </div>
 
           </div>
+
         </div>
 
       </div>
@@ -140,20 +145,53 @@
               </div>
             </li>
             <li>
-              <div class="collapsible-header background-blue white-text"><i class="material-icons safemove-orange">location_on</i>Oversigt over område</div>
+              <div class="collapsible-header active background-blue white-text"><i class="material-icons safemove-orange">location_on</i>Oversigt over område</div>
               <div class="collapsible-body">
                 <div class="row">
 
-                  <div class="col s6">
+                  <div class="col s6 right-border">
                     <div id="map"></div>
                   </div>
 
-                  <div class="col s6 center left-border">
-                    <p>PARAMETER 1</p>
-                    <p>PARAMETER 2</p>
-                    <p>PARAMETER 3</p>
-                    <p>PARAMETER 4</p>
-                    <p>PARAMETER 5</p>
+                  <div class="col s6">
+                      <input type="checkbox" class="filled-in" id="parameter-1"/>
+                      <label for="parameter-1">Parameter 1</label>
+                    <p>
+                      <input type="checkbox" class="filled-in" id="parameter-2" />
+                      <label for="parameter-2">Parameter 2</label>
+                    </p>
+                    <p>
+                      <input type="checkbox" class="filled-in" id="parameter-3" />
+                      <label for="parameter-3">Parameter 3</label>
+                    </p>
+                    <p>
+                      <input type="checkbox" class="filled-in" id="parameter-4" />
+                      <label for="parameter-4">Parameter 4</label>
+                    </p>
+                    <p>
+                      <input type="checkbox" class="filled-in" id="parameter-5" />
+                      <label for="parameter-5">Parameter 5</label>
+                    </p>
+                    <p>
+                      <input type="checkbox" class="filled-in" id="parameter-6" />
+                      <label for="parameter-6">Parameter 6</label>
+                    </p>
+                    <p>
+                      <input type="checkbox" class="filled-in" id="parameter-7" />
+                      <label for="parameter-7">Parameter 7</label>
+                    </p>
+                    <p>
+                      <input type="checkbox" class="filled-in" id="parameter-8" />
+                      <label for="parameter-8">Parameter 8</label>
+                    </p>
+                    <p>
+                      <input type="checkbox" class="filled-in" id="parameter-9" />
+                      <label for="parameter-9">Parameter 9</label>
+                    </p>
+                    <p>
+                      <input type="checkbox" class="filled-in" id="parameter-10" />
+                      <label for="parameter-10">Parameter 10</label>
+                    </p>
                   </div>
 
                 </div>
@@ -174,75 +212,6 @@
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
-
-      <script>
-        // This example displays an address form, using the autocomplete feature
-        // of the Google Places API to help users fill in the information.
-
-        // This example requires the Places library. Include the libraries=places
-        // parameter when you first load the API. For example:
-        // <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places">
-
-        var placeSearch, autocomplete;
-        var componentForm = {
-          route: 'long_name',
-          street_number: 'short_name',
-          locality: 'long_name',
-          postal_code: 'short_name'
-        };
-
-        function initAutocomplete() {
-          // Create the autocomplete object, restricting the search to geographical
-          // location types.
-          autocomplete = new google.maps.places.Autocomplete(
-              /** @type {!HTMLInputElement} */(document.getElementById('autocomplete')),
-              {types: ['geocode']});
-
-          // When the user selects an address from the dropdown, populate the address
-          // fields in the form.
-          autocomplete.addListener('place_changed', fillInAddress);
-        }
-
-        function fillInAddress() {
-          // Get the place details from the autocomplete object.
-          var place = autocomplete.getPlace();
-
-          for (var component in componentForm) {
-            document.getElementById(component).value = '';
-            document.getElementById(component).disabled = false;
-          }
-
-          // Get each component of the address from the place details
-          // and fill the corresponding field on the form.
-          for (var i = 0; i < place.address_components.length; i++) {
-            var addressType = place.address_components[i].types[0];
-            if (componentForm[addressType]) {
-              var val = place.address_components[i][componentForm[addressType]];
-              document.getElementById(addressType).value = val;
-            }
-          }
-        }
-
-        // Bias the autocomplete object to the user's geographical location,
-        // as supplied by the browser's 'navigator.geolocation' object.
-        function geolocate() {
-          if (navigator.geolocation) {
-            navigator.geolocation.getCurrentPosition(function(position) {
-              var geolocation = {
-                lat: position.coords.latitude,
-                lng: position.coords.longitude
-              };
-              var circle = new google.maps.Circle({
-                center: geolocation,
-                radius: position.coords.accuracy
-              });
-              autocomplete.setBounds(circle.getBounds());
-            });
-          }
-        }
-      </script>
-      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMl37AbpRK06nHLLGmxYUb51MycTi0fAo&libraries=places&callback=initAutocomplete"
-          async defer></script>
 
     </body>
   </html>

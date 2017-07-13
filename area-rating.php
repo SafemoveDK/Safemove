@@ -124,16 +124,49 @@
               <div class="collapsible-body">
                 <div class="row">
 
-                  <div class="col s6">
+                  <div class="col s6 right-border">
                     <div id="map"></div>
                   </div>
 
-                  <div class="col s6 center left-border">
-                    <p>PARAMETER 1</p>
-                    <p>PARAMETER 2</p>
-                    <p>PARAMETER 3</p>
-                    <p>PARAMETER 4</p>
-                    <p>PARAMETER 5</p>
+                  <div class="col s6">
+                      <input type="checkbox" class="filled-in" id="parameter-1"/>
+                      <label for="parameter-1">Parameter 1</label>
+                    <p>
+                      <input type="checkbox" class="filled-in" id="parameter-2" />
+                      <label for="parameter-2">Parameter 2</label>
+                    </p>
+                    <p>
+                      <input type="checkbox" class="filled-in" id="parameter-3" />
+                      <label for="parameter-3">Parameter 3</label>
+                    </p>
+                    <p>
+                      <input type="checkbox" class="filled-in" id="parameter-4" />
+                      <label for="parameter-4">Parameter 4</label>
+                    </p>
+                    <p>
+                      <input type="checkbox" class="filled-in" id="parameter-5" />
+                      <label for="parameter-5">Parameter 5</label>
+                    </p>
+                    <p>
+                      <input type="checkbox" class="filled-in" id="parameter-6" />
+                      <label for="parameter-6">Parameter 6</label>
+                    </p>
+                    <p>
+                      <input type="checkbox" class="filled-in" id="parameter-7" />
+                      <label for="parameter-7">Parameter 7</label>
+                    </p>
+                    <p>
+                      <input type="checkbox" class="filled-in" id="parameter-8" />
+                      <label for="parameter-8">Parameter 8</label>
+                    </p>
+                    <p>
+                      <input type="checkbox" class="filled-in" id="parameter-9" />
+                      <label for="parameter-9">Parameter 9</label>
+                    </p>
+                    <p>
+                      <input type="checkbox" class="filled-in" id="parameter-10" />
+                      <label for="parameter-10">Parameter 10</label>
+                    </p>
                   </div>
 
                 </div>
