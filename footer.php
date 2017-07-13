@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-  <html>
-    <head>
-    </head>
 
-    <body>
       <footer>
         <div class="container">
           <div class="row">
