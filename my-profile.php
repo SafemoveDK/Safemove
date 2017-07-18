@@ -95,13 +95,15 @@
             <div id="myRatings" class="col s12">
               <br />
               <br />
+
               <?php
-                $street_name = "Danmarksgade 9, 9000 Aalborg";
+                $street_name = "Danmarksgade, 9000 Aalborg";
               ?>
+
               <ul class="collapsible" data-collapsible="accordion">
                 <li>
                   <div class="collapsible-header">
-                    <i class="material-icons">filter_drama</i><div align="left" class="col s9"><?php echo $street_name?> </div>
+                    <i class="material-icons safemove-orange">place</i><div align="left" class="col s9"><?php echo $street_name?> </div>
                   </div>
 
                   <div class="collapsible-body">
@@ -124,11 +126,15 @@
 
                 </li>
                 <li>
-                  <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+                  <div class="collapsible-header">
+                    <i class="material-icons safemove-orange">place</i><div align="left" class="col s9"><?php echo $street_name?> </div>
+                  </div>
                   <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
                 </li>
                 <li>
-                  <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+                  <div class="collapsible-header">
+                    <i class="material-icons safemove-orange">place</i><div align="left" class="col s9"><?php echo $street_name?> </div>
+                  </div>
                   <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
                 </li>
               </ul>

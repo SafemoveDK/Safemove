@@ -1,7 +1,6 @@
       <!-- Header -->
       <?php include 'header.php';?>
 
-
       <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
       </script>
       <script async defer
@@ -67,65 +66,40 @@
           $street_name = "Danmarksgade 9, 9000 Aalborg";
       ?>
 
-      <div class="">
+        <div class="row">
+          <div class="overall-rating col s9 background-blue">
+            <i class="material-icons prefix safemove-orange">insert_chart</i>
+            <a class="safemove-orange">Overall rating for: </a><a class="white-text"><?php echo $street_name ?></a>
+          </div>
 
-        <br />
-        <br />
-
-        <div class="container">
-
-          <div class="row">
-
-            <div id="locationField" class="col s5">
-              <input id="autocomplete" placeholder="Indtast din adresse ..."
-                     onFocus="geolocate()" type="text"></input>
+          <a href="rate-area-1.php" class="white-text">
+            <div class="rate-area col s3 background-orange center">Bedøm området
+            <i class="material-icons prefix white-text">play_arrow</i>
             </div>
+          </a>
+        </div>
 
-            <div class="col s4">
-              <button class="btn waves-effect waves-light background-blue" type="submit" name="action">Vis bedømmelse
-                <i class="fa fa-heart left safemove-orange"></i>
-              </button>
-            </div>
+        <div class="row center">
 
-            <div class="col s3 right">
-              <a href="rate-area-1.php">
-                <button class="btn waves-effect waves-light background-orange" type="submit" name="action">Bedøm område
-                  <i class="material-icons right">play_arrow</i>
-                </button>
-              </a>
-            </div>
+          <div class="col s6 right-border">
+            <p>PARAMETER 1</p>
+            <p>PARAMETER 3</p>
+            <p>PARAMETER 5</p>
+            <p>PARAMETER 7</p>
+            <p>PARAMETER 9</p>
+          </div>
 
+          <div class="col s6">
+            <p>PARAMETER 2</p>
+            <p>PARAMETER 4</p>
+            <p>PARAMETER 6</p>
+            <p>PARAMETER 8</p>
+            <p>PARAMETER 10</p>
           </div>
 
         </div>
 
-      </div>
-
         <ul class="collapsible" data-collapsible="expandable">
-            <li>
-              <div class="collapsible-header active background-blue white-text"><i class="material-icons safemove-orange">insert_chart</i>Overall rating for området</div>
-              <div class="collapsible-body">
-                <div class="row center">
-
-                  <div class="col s6 right-border">
-                    <p>PARAMETER 1</p>
-                    <p>PARAMETER 3</p>
-                    <p>PARAMETER 5</p>
-                    <p>PARAMETER 7</p>
-                    <p>PARAMETER 9</p>
-                  </div>
-
-                  <div class="col s6">
-                    <p>PARAMETER 2</p>
-                    <p>PARAMETER 4</p>
-                    <p>PARAMETER 6</p>
-                    <p>PARAMETER 8</p>
-                    <p>PARAMETER 10</p>
-                  </div>
-
-                </div>
-              </div>
-            </li>
             <li>
               <div class="collapsible-header active background-blue white-text"><i class="material-icons safemove-orange">location_on</i>Oversigt over område</div>
               <div class="collapsible-body">
@@ -180,10 +154,10 @@
               </div>
             </li>
             <li>
-              <div class="collapsible-header background-blue white-text"><i class="material-icons safemove-orange">comment</i>Kommentarer</div>
+              <div class="collapsible-header active background-blue white-text"><i class="material-icons safemove-orange">comment</i>Kommentarer</div>
               <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
             </li>
           </ul>
 
-          <!-- Footer -->
-          <?php include 'footer.php';?>
+    <!-- Footer -->
+    <?php include 'footer.php';?>
