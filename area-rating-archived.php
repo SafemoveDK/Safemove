@@ -99,11 +99,11 @@
           <div class="col s6 right-border">
 
           
+            <p><?php echo $safety ?></p>
             <p><?php echo $noiseLevel ?></p>
-            <p><?php echo $recomendation ?></p>
-            <p><?php echo $childFriendly ?></p>
-            <p><?php echo $moderniseringsgrad ?></p>
+            <p><?php echo $neighborhood ?></p>
             <p><?php echo $infrastructur ?></p>
+            <p><?php echo $childFriendly ?></p>
             <div class="ldBar" data-value="50">
               <div id="myItem1"></div>
                 <script>
@@ -115,11 +115,11 @@
             </div>
 
           <div class="col s6">
-            <p><?php echo $safety ?></p>
-            <p><?php echo $neighborhood ?></p>
-            <p><?php echo $cozyness ?></p>
-            <p><?php echo $cleanEnvironment ?></p>
+            <p><?php echo $recomendation ?></p>
             <p><?php echo $parking ?></p>
+            <p><?php echo $cleanEnvironment ?></p>
+            <p><?php echo $cozyness ?></p>
+            <p><?php echo $moderniseringsgrad ?></p>
           </div>
 
         </div>
