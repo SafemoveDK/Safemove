@@ -19,8 +19,8 @@
       <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
 
       <!--Import css og js for progressbar-->
-      <link type="text/css" href="https://github.com/loadingio/loading-bar.git/dist/loading-bar.css" rel="stylesheet">
-      <script type="text/javascript" src="https://github.com/loadingio/loading-bar.git/dist/loading-bar.js"></script>
+      <link type="text/css" href="/loading-bar/loading-bar.css" rel="stylesheet">
+      <script type="text/javascript" src="/loading-bar/loading-bar.js"></script>
     </head>
 
     <body>

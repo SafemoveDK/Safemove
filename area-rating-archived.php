@@ -64,6 +64,17 @@
 
       <?php
           $street_name = "Danmarksgade 9, 9000 Aalborg";
+          $satisfaction = "Beboernes tilfredshed med området";
+          $moderniseringsgrad = "Moderniseringsgrad";
+          $safety = "Tryghed";
+          $cleanEnvironment = "Renholdte Omgivelser";
+          $noiseLevel = "Støjniveau";
+          $parking = "Parkeringenmuligheder";
+          $neighborhood = "Naboskab";
+          $childFriendly = "Børnevenlighed";
+          $cozyness = "Hyggelige Omgivelser";
+          $recomendation = "Rekommanderingsgrad";
+          $infrastructur = "Infrastruktur";
       ?>
 
         <div class="row">
@@ -81,14 +92,18 @@
 
         <div class="row center">
 
+            <div> 
+              <h5 align="center"><?php echo $satisfaction ?></h5> 
+            </div>
+          <br />
           <div class="col s6 right-border">
 
           
-            <p>PARAMETER 1</p>
-            <p>PARAMETER 3</p>
-            <p>PARAMETER 5</p>
-            <p>PARAMETER 7</p>
-            <p>PARAMETER 9</p>
+            <p><?php echo $noiseLevel ?></p>
+            <p><?php echo $recomendation ?></p>
+            <p><?php echo $childFriendly ?></p>
+            <p><?php echo $moderniseringsgrad ?></p>
+            <p><?php echo $infrastructur ?></p>
             <div class="ldBar" data-value="50">
               <div id="myItem1"></div>
                 <script>
@@ -100,11 +115,11 @@
             </div>
 
           <div class="col s6">
-            <p>PARAMETER 2</p>
-            <p>PARAMETER 4</p>
-            <p>PARAMETER 6</p>
-            <p>PARAMETER 8</p>
-            <p>PARAMETER 10</p>
+            <p><?php echo $safety ?></p>
+            <p><?php echo $neighborhood ?></p>
+            <p><?php echo $cozyness ?></p>
+            <p><?php echo $cleanEnvironment ?></p>
+            <p><?php echo $parking ?></p>
           </div>
 
         </div>
