@@ -1,6 +1,7 @@
 
       <!-- Header -->
       <?php include 'header.php';?>
+      <?php include 'parameterList.php';?>
 
       <div class="background-blue">
         <h3 class="rate-header center">Bedøm dit område</h3>
@@ -21,23 +22,59 @@
 
           <tbody>
             <tr>
-              <td>Bla bla bla</td>
+              <td><?php echo $safety ?></td>
               <td class="center">1-5</td>
             </tr>
+
             <tr>
-              <td>Bla bla bla</td>
+              <td><?php echo $noiseLevel ?></td>
               <td class="center">1-5</td>
             </tr>
+
             <tr>
-              <td>Bla bla bla</td>
+
+              <td><?php echo $neighborhood ?></td>
               <td class="center">1-5</td>
             </tr>
+
             <tr>
-              <td>Bla bla bla</td>
+
+              <td><?php echo $infrastructur ?></td>
               <td class="center">1-5</td>
             </tr>
+
             <tr>
-              <td>Bla bla bla</td>
+              <td><?php echo $childFriendly ?></td>
+              <td class="center">1-5</td>
+            </tr>
+
+            <tr>
+              <td><?php echo $reconmendation ?></td>
+              <td class="center">1-5</td>
+            </tr>
+
+            <tr>
+              <td><?php echo $parking ?></td>
+              <td class="center">1-5</td>
+            </tr>
+
+            <tr>
+              <td><?php echo $cleanEnvironment ?></td>
+              <td class="center">1-5</td>
+            </tr>
+
+            <tr>
+              <td><?php echo $cozyness ?></td>
+              <td class="center">1-5</td>
+            </tr>
+
+            <tr>
+              <td><?php echo $moderniseringsgrad ?></td>
+              <td class="center">1-5</td>
+            </tr>
+
+            <tr>
+              <td><?php echo $satisfaction ?></td>
               <td class="center">1-5</td>
             </tr>
           </tbody>

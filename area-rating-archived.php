@@ -1,5 +1,6 @@
       <!-- Header -->
       <?php include 'header.php';?>
+      <?php include 'parameterList.php';?>
 
       <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
       </script>
@@ -64,23 +65,12 @@
 
       <?php
           $street_name = "Danmarksgade 9, 9000 Aalborg";
-          $satisfaction = "Beboernes tilfredshed med området";
-          $moderniseringsgrad = "Moderniseringsgrad";
-          $safety = "Tryghed";
-          $cleanEnvironment = "Renholdte Omgivelser";
-          $noiseLevel = "Støjniveau";
-          $parking = "Parkeringenmuligheder";
-          $neighborhood = "Naboskab";
-          $childFriendly = "Børnevenlighed";
-          $cozyness = "Hyggelige Omgivelser";
-          $recomendation = "Rekommanderingsgrad";
-          $infrastructur = "Infrastruktur";
       ?>
 
         <div class="row">
           <div class="overall-rating col s9 background-blue">
             <i class="material-icons prefix safemove-orange">insert_chart</i>
-            <a class="safemove-orange">Overall rating for: </a><a class="white-text"><?php echo $street_name ?></a>
+            <a class="safemove-orange">Rating for: </a><a class="white-text"><?php echo $street_name ?></a>
           </div>
 
           <a href="rate-area-1.php" class="white-text">
@@ -115,7 +105,7 @@
             </div>
 
           <div class="col s6">
-            <p><?php echo $recomendation ?></p>
+            <p><?php echo $reconmendation ?></p>
             <p><?php echo $parking ?></p>
             <p><?php echo $cleanEnvironment ?></p>
             <p><?php echo $cozyness ?></p>
