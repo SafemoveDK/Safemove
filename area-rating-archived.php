@@ -82,12 +82,22 @@
         <div class="row center">
 
           <div class="col s6 right-border">
+
+          
             <p>PARAMETER 1</p>
             <p>PARAMETER 3</p>
             <p>PARAMETER 5</p>
             <p>PARAMETER 7</p>
             <p>PARAMETER 9</p>
-          </div>
+            <div class="ldBar" data-value="50">
+              <div id="myItem1"></div>
+                <script>
+                  var bar1 = new ldBar("#myItem1");
+                  var bar2 = document.getElementById('myItem1').ldBar;
+                  bar1.set(60);
+                </script>
+              </div>
+            </div>
 
           <div class="col s6">
             <p>PARAMETER 2</p>

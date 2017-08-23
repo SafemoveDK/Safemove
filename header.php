@@ -9,6 +9,7 @@
       
       <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
       <link type="text/css" rel="stylesheet" href="./style.css"/>
+
       <meta charset="iso-8859-1" />
       <!-- Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -16,8 +17,10 @@
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
-      <script type="text/javascript" src="progressbar/loading-bar.js"></script>
-      <link href="progressbar/loading-bar.css" rel="stylesheet">
+
+      <!--Import css og js for progressbar-->
+      <link type="text/css" href="https://github.com/loadingio/loading-bar.git/dist/loading-bar.css" rel="stylesheet">
+      <script type="text/javascript" src="https://github.com/loadingio/loading-bar.git/dist/loading-bar.js"></script>
     </head>
 
     <body>
@@ -88,7 +91,7 @@
         </div>
 
         <div id="loginmodal">
-          <form id="loginform" name="loginform" method="post" action="createuserdb.php">
+          <form id="loginform" name="loginform" method="post" action="createuserdb1.php">
             <br />
             <div class="container">
 
