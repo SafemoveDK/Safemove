@@ -5117,7 +5117,7 @@ small {
 .btn-large[disabled],
 .btn-flat[disabled] {
   pointer-events: none;
-  background-color: #DFDFDF !important;
+  background-color: #DFDFDF;
   box-shadow: none;
   color: #9F9F9F !important;
   cursor: default;

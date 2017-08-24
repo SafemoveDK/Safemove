@@ -28,11 +28,11 @@
       <nav>
         <div class="nav-wrapper">
           <a href="index.php"><img src="img/logo.png"  style="height:60px"></a>
-          <ul id="nav-mobile" class="right">
+          <ul id="nav-mobile" class="right" >
             <li><a class="safemove-blue" href="index.php#safemove-community">Safemove-community</a></li>
             <li><a class="safemove-blue" href="index.php#kontakt-os">Kontakt os</a></li>
             <li><a class="safemove-blue" href="#create-user-modal">Opret bruger</a></li>
-            <li><a class="waves-effect waves-light btn background-orange" href="#login-modal">Login</a></li>
+            <li><a class="waves-effect waves-light btn background-orange"  href="#login-modal">Login</a></li>
           </ul>
         </div>
       </nav>
@@ -41,8 +41,9 @@
     <div id="login-modal" class="modal modal-fixed-footer">
 
         <div class="modalheader">
-          &nbsp;
           <h4 class="center">Log ind</h4>
+          &nbsp;
+          
         </div>
 
         <div id="loginmodal">
@@ -130,8 +131,8 @@
               </div>
 
             </div>
-            <div class="modal-footer">
-              <button class="modal-action modal-close btn-flat white-text background-orange">Opret bruger</button>
+            <div align = "right" style = "padding-right: 20px; padding-top: 5px">
+              <button class="modal-action modal-close btn-flat btn:hover white-text background-orange">Opret bruger</button>
             </div>
           </form>
         </div>

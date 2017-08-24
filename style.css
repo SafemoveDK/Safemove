@@ -38,6 +38,9 @@ p {
     background-color: white;
 }
 
+.btn-flat {
+    background-color: #F28541 !important;
+}
 .btn:hover {
     background-color: #F28541;
 }
@@ -162,6 +165,10 @@ p {
     margin: 0;
     padding: 20px;
     color: white;
+}
+.row-alter {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .right-border {
