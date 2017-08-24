@@ -81,7 +81,7 @@
                           </div>
 
                         </div>
-                        <div align="right" style = "padding-right: 20px; padding-bottom: 15px">
+                        <div align="right" style = "padding-right: 20px; padding-bottom: 15 px">
                           <button class="modal-action modal-close btn-flat white-text background-orange">Skift adgangskode</button>
                         </div>
                       </form>

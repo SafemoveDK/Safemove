@@ -33,6 +33,7 @@
             <td class="label">Adresse</td>
             <td class="wideField" colspan="3"><input class="field" id="route"
                   disabled="true" readonly></input></td>
+            <td class="label">Hus nr.</td>
             <td class="slimField"><input class="field" id="street_number"
                   disabled="true" readonly></input></td>
           </tr>
