@@ -41,7 +41,8 @@
     <div id="login-modal" class="modal modal-fixed-footer">
 
         <div class="modalheader">
-          <h4 class="center">Log ind</h4>
+          <br />
+          <h4 class="center white-text">Log ind</h4>
           &nbsp;
           
         </div>
@@ -88,7 +89,7 @@
 
         <div class="modalheader">
           <br />
-          <h4 class="center">Opret bruger</h4>
+          <h4 class="center white-text">Opret bruger</h4>
         </div>
 
         <div id="loginmodal">
@@ -131,8 +132,8 @@
               </div>
 
             </div>
-            <div align = "right" style = "padding-right: 20px; padding-top: 5px">
-              <button class="modal-action modal-close btn-flat btn:hover white-text background-orange">Opret bruger</button>
+            <div align = "right" style = "padding-right: 25px; padding-bottom: 10px">
+              <button class="modal-action modal-close btn white-text background-orange">Opret bruger</button>
             </div>
           </form>
         </div>

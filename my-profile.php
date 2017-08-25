@@ -49,11 +49,11 @@
                   </div>
 
                   <!-- Change password modal -->
-                <div id="change-password" class="modal modal">
+                <div id="change-password" class="modal" style="height: 60%;">
 
                     <div class="modalheader">
                       <br />
-                      <h4 class="center">Opret bruger</h4>
+                      <h4 class="center white-text">Ændre dit password</h4>
                     </div>
 
                     <div id="changepassmodal">
@@ -81,7 +81,7 @@
                           </div>
 
                         </div>
-                        <div align="right" style = "padding-right: 20px; padding-bottom: 15 px">
+                        <div align="right" style = "padding-right: 30px; padding-bottom: 25 px !important">
                           <button class="modal-action modal-close btn-flat white-text background-orange">Skift adgangskode</button>
                         </div>
                       </form>

@@ -188,6 +188,9 @@ p {
     color: grey;
     opacity: 0.7;
 }
+.white-text {
+    color: #fff;
+}
 
 #map {
     height: 400px;
