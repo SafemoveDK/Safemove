@@ -198,9 +198,12 @@ p {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .scroll {
     
 =======
+=======
+>>>>>>> 890387986a8bd29bfd35f3b753e868df439fdab3
 .tabs .tab a.active {
   color: #1B4965;
 }
@@ -215,6 +218,9 @@ p {
 
 .tabs .indicator {
     background-color: #1B4965;
+<<<<<<< HEAD
+>>>>>>> 890387986a8bd29bfd35f3b753e868df439fdab3
+=======
 >>>>>>> 890387986a8bd29bfd35f3b753e868df439fdab3
 }
 
