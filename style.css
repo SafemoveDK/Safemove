@@ -34,18 +34,8 @@ p {
     background-color: #F28541;
 }
 
-.background-orange-saturated {
-    background-color: #F2B691;
-}
-
 .background-white {
     background-color: white;
-}
-
-.background-grey {
-    background-color: #f2f2f2;
-    height: 100px;
-    margin-top: -20px;
 }
 
 .btn-flat {
@@ -90,6 +80,7 @@ p {
     padding-top: 25px;
     text-align: center;
     color: white;
+
 }
 
 .facebook-blue {
@@ -158,10 +149,6 @@ p {
     padding-top: 15px;
 }
 
-.progress .determinate {
-    background-color: #F28541;
-}
-
 .rate-area, .rate-area > i {
     height: 70px;
     font-size: 30px;
@@ -197,13 +184,6 @@ p {
     color: #F28541;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-.scroll {
-    
-=======
-=======
->>>>>>> 890387986a8bd29bfd35f3b753e868df439fdab3
 .tabs .tab a.active {
   color: #1B4965;
 }
@@ -218,10 +198,6 @@ p {
 
 .tabs .indicator {
     background-color: #1B4965;
-<<<<<<< HEAD
->>>>>>> 890387986a8bd29bfd35f3b753e868df439fdab3
-=======
->>>>>>> 890387986a8bd29bfd35f3b753e868df439fdab3
 }
 
 .textopacity {
