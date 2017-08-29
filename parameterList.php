@@ -6,8 +6,8 @@
           $childFriendly = "Børnevenlighed";
           $reconmendation = "Rekommanderingsgrad";
           $parking = "Parkeringenmuligheder";
-          $cleanEnvironment = "Renholdte Omgivelser";
-          $cozyness = "Hyggelige Omgivelser";
+          $cleanEnvironment = "Renholdte omgivelser";
+          $cozyness = "Hyggelige omgivelser";
           $moderniseringsgrad = "Moderniseringsgrad";
           $satisfaction = "Beboernes tilfredshed med området";
           $satisfaction1 = "Samlet tilfredshed med området";

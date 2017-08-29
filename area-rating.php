@@ -89,7 +89,7 @@
 
             <div class="col s3 right">
               <a href="rate-area-1.php">
-                <button class="btn waves-effect waves-light background-orange" type="submit" name="action">Bedøm område
+                <button class="btn waves-effect waves-light background-orange pulse" type="submit" name="action">Bedøm område
                   <i class="material-icons right">play_arrow</i>
                 </button>
               </a>

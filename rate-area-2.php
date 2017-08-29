@@ -26,14 +26,13 @@
               <div class="col s7">
                 <td>
                   <?php echo $safety ?>
-                    - stuff worth knowing
                 </td>
               </div>
-              
+
               <div class="col s5">
                 <td class="center">1-5</td>
               </div>
-              
+
             </tr>
 
             <tr>
