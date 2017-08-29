@@ -12,85 +12,78 @@
 
       <div class="container">
 
-        <table class="striped">
-          <thead>
-            <tr>
-                <th>Parameter</th>
-                <th class="center">Rating</th>
-            </tr>
-          </thead>
+        <ul class="collection">
+          <li class="collection-item avatar">
+            <i class="material-icons circle red">play_arrow</i>
+            <span class="title"><?php echo $safety ?></span>
+            <p class="light">- I hvilken grad føler du dig tryg, når du færdes i dit boligområde?</p>
+            <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+          </li>
+         <li class="collection-item avatar">
+           <i class="material-icons circle red">play_arrow</i>
+           <span class="title"><?php echo $noiseLevel ?></span>
+           <p class="light">- I hvilken grad føler du, at støjen i dit boligområde generer dig når du befinder dig på din adresse, samt færdes i dit boligområde?</p>
+           <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+         </li>
+         <li class="collection-item avatar">
+           <i class="material-icons circle red">play_arrow</i>
+           <span class="title"><?php echo $neighborhood ?></span>
+           <p class="light">- Hvor let føler du, at du kan komme i kontakt og omgås dine naboer, samt hvorledes opfatter du mulighederne for at få en hjælpende hånd?</p>
+           <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+         </li>
+         <li class="collection-item avatar">
+           <i class="material-icons circle red">play_arrow</i>
+           <span class="title"><?php echo $onlineConnections ?></span>
+           <p class="light">- Hvor tilfreds er du med dine online signaler (internet -, tv - og mobilsignaler)?</p>
+           <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+         </li>
+         <li class="collection-item avatar">
+           <i class="material-icons circle red">play_arrow</i>
+           <span class="title"><?php echo $childFriendly ?></span>
+           <p class="light">- I hvilken grad føler du, at der er muligheder for børn (legeplads, fodboldbaner, kælkebakker mm.), samt hvor tryg er du ved at sende dine børn ud i boligområdet?</p>
+           <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+         </li>
+         <li class="collection-item avatar">
+           <i class="material-icons circle red">play_arrow</i>
+           <span class="title"><?php echo $reconmendation ?></span>
+           <p class="light">- Hvor villig vil du være til at anbefale dit boligområde til andre?</p>
+           <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+         </li>
+         <li class="collection-item avatar">
+           <i class="material-icons circle red">play_arrow</i>
+           <span class="title"><?php echo $parking ?></span>
+           <p class="light">- I hvilken grad føler du, at der er mulighed for at finde en parkeringsplads i dit boligområde? <br />
+           Tidsbegrænset? Betaling? Gratis?
+           </p>
+           <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+         </li>
+         <li class="collection-item avatar">
+           <i class="material-icons circle red">play_arrow</i>
+           <span class="title"><?php echo $cleanEnvironment ?></span>
+           <p class="light">- Hvor renholdt opfatter du dit boligområde?</p>
+           <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+         </li>
+         <li class="collection-item avatar">
+           <i class="material-icons circle red">play_arrow</i>
+           <span class="title"><?php echo $cozyness ?></span>
+           <p class="light">- Hvor hyggeligt opfatter du dit boligområde, hvis du fx. går en aftentur eller sidder på en bænk?</p>
+           <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+         </li>
+         <li class="collection-item avatar">
+           <i class="material-icons circle red">play_arrow</i>
+           <span class="title"><?php echo $moderniseringsgrad ?></span>
+           <p class="light">- I hvilken grad føler du, at dit boligområde fremstår nyt og moderne?</p>
+           <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+         </li>
+         <li class="collection-item avatar">
+           <i class="material-icons circle red">play_arrow</i>
+           <span class="title"><?php echo $satisfaction1 ?></span>
+           <p class="light">- Hvor tilfreds er du overordnet med dit boligområde?</p>
+           <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+         </li>
+       </ul>
 
-          <tbody>
-            <tr>
-
-              <div class="col s7">
-                <td>
-                  <?php echo $safety ?>
-                </td>
-              </div>
-
-              <div class="col s5">
-                <td class="center">1-5</td>
-              </div>
-
-            </tr>
-
-            <tr>
-              <td class="col s7"><?php echo $noiseLevel ?></td>
-
-              <td class="center">1-5</td>
-            </tr>
-
-            <tr>
-
-              <td><?php echo $neighborhood ?></td>
-              <td class="center">1-5</td>
-            </tr>
-
-            <tr>
-
-              <td><?php echo $infrastructur ?></td>
-              <td class="center">1-5</td>
-            </tr>
-
-            <tr>
-              <td><?php echo $childFriendly ?></td>
-              <td class="center">1-5</td>
-            </tr>
-
-            <tr>
-              <td><?php echo $reconmendation ?></td>
-              <td class="center">1-5</td>
-            </tr>
-
-            <tr>
-              <td><?php echo $parking ?></td>
-              <td class="center">1-5</td>
-            </tr>
-
-            <tr>
-              <td><?php echo $cleanEnvironment ?></td>
-              <td class="center">1-5</td>
-            </tr>
-
-            <tr>
-              <td><?php echo $cozyness ?></td>
-              <td class="center">1-5</td>
-            </tr>
-
-            <tr>
-              <td><?php echo $moderniseringsgrad ?></td>
-              <td class="center">1-5</td>
-            </tr>
-
-            <tr>
-              <td><?php echo $satisfaction ?></td>
-              <td class="center">1-5</td>
-            </tr>
-          </tbody>
-        </table>
-
-      </div>
+    </div>
 
       <div class="container">
         <div class="row right">

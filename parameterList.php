@@ -2,7 +2,7 @@
           $safety = "Tryghed";
           $noiseLevel = "Støjniveau";
           $neighborhood = "Naboskab";
-          $infrastructur = "Infrastruktur";
+          $onlineConnections = "Online forbindelser";
           $childFriendly = "Børnevenlighed";
           $reconmendation = "Rekommanderingsgrad";
           $parking = "Parkeringenmuligheder";
