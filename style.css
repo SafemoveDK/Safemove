@@ -15,7 +15,7 @@ body {
 }
 
 nav {
-    border-bottom: #1B4965 solid 2px;
+    /* border-bottom: #1B4965 solid 2px; */
 }
 
 a {
@@ -34,8 +34,18 @@ p {
     background-color: #F28541;
 }
 
+.background-orange-saturated {
+    background-color: #F2B691;
+}
+
 .background-white {
     background-color: white;
+}
+
+.background-grey {
+    background-color: #f2f2f2;
+    height: 100px;
+    margin-top: -20px;
 }
 
 .btn-flat {
@@ -80,7 +90,6 @@ p {
     padding-top: 25px;
     text-align: center;
     color: white;
-
 }
 
 .facebook-blue {
@@ -149,6 +158,10 @@ p {
     padding-top: 15px;
 }
 
+.progress .determinate {
+    background-color: #F28541;
+}
+
 .rate-area, .rate-area > i {
     height: 70px;
     font-size: 30px;
@@ -182,6 +195,27 @@ p {
 
 .safemove-orange {
     color: #F28541;
+}
+
+<<<<<<< HEAD
+.scroll {
+    
+=======
+.tabs .tab a.active {
+  color: #1B4965;
+}
+
+.tabs .tab a:hover {
+  color: #1B4965;
+}
+
+.tabs .tab a {
+  color: #1B4965;
+}
+
+.tabs .indicator {
+    background-color: #1B4965;
+>>>>>>> 890387986a8bd29bfd35f3b753e868df439fdab3
 }
 
 .textopacity {

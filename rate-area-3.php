@@ -4,7 +4,7 @@
 
 <div class="background-blue">
   <h3 class="rate-header center">Bedøm dit område</h3>
-  <div class="progress">
+  <div class="progress background-orange-saturated">
     <div class="determinate" style="width: 100%"></div>
   </div>
 </div>
