@@ -29,7 +29,7 @@
         <div class="nav-wrapper">
           <a href="index.php"><img src="img/logo.png"  style="height:60px"></a>
           <ul id="nav-mobile" class="right" >
-            <li><a id = "smc-click" class="safemove-blue">Safemove-community</a></li>
+            <li><a id = "community-click" class="safemove-blue">Safemove-community</a></li>
             <li><a id = "kontakt-click" class="safemove-blue">Kontakt os</a></li>
             <li><a class="safemove-blue" href="#create-user-modal">Opret bruger</a></li>
             <li><a class="waves-effect waves-light btn background-orange"  href="#login-modal">Login</a></li>
@@ -163,18 +163,18 @@
 
     <script>
       $(document).ready(function (){
-          $("#smc-click").click(function (){
-              $('html, body').animate({
-                  scrollTop: $("#safemove-community").offset().top
-              }, 1500);
-          });
-      });
+            $("#community-click").click(function (){
+                $('html, body').animate({
+                    scrollTop: $("#safemove-community").offset().top
+                }, 2000);
+            });
+        });
 
       $(document).ready(function (){
-          $("#kontakt-click").click(function (){
-              $('html, body').animate({
-                  scrollTop: $("#kontakt-os").offset().top
-              }, 1500);
-          });
-      });
+            $("#kontakt-click").click(function (){
+                $('html, body').animate({
+                    scrollTop: $("#kontakt-os").offset().top
+                }, 2000);
+            });
+        });
     </script>

@@ -34,6 +34,10 @@ p {
     background-color: #F28541;
 }
 
+.background-orange-saturated {
+    background-color: #F2B691
+}
+
 .background-white {
     background-color: white;
 }
@@ -147,6 +151,10 @@ p {
 .overall-rating > a, .overall-rating > i {
     font-size: 30px;
     padding-top: 15px;
+}
+
+.progress .determinate {
+    background-color: #F28541;
 }
 
 .rate-area, .rate-area > i {
