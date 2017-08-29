@@ -166,7 +166,7 @@
             $("#community-click").click(function (){
                 $('html, body').animate({
                     scrollTop: $("#safemove-community").offset().top
-                }, 2000);
+                }, 1500);
             });
         });
 
@@ -174,7 +174,7 @@
             $("#kontakt-click").click(function (){
                 $('html, body').animate({
                     scrollTop: $("#kontakt-os").offset().top
-                }, 2000);
+                }, 1500);
             });
         });
     </script>
