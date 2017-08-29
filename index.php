@@ -74,20 +74,16 @@
       <br />
       <br />
       <div class="row">
-        <div class="col s6 push-s2">
+        <div class="center">
           <a class="waves-effect waves-light btn facebook-blue" href="#" onclick="fb_login();">
           <i class="fa fa-facebook-square left"></i>Log ind med Facebook</a>
-        </div>
-        
-        <div class="col s5 pull-s1">
+
           <a class="waves-effect waves-light btn background-orange"  href="#create-user-modal">
           <i class="material-icons left" >perm_identity</i>Opret bruger</a>
         </div>
-        
+
       </div>
     </div>
-
-    
 
     <div id="safemove-community" class="container">
       <div class="section">
@@ -168,4 +164,3 @@
 
     <!-- Footer -->
     <?php include 'footer.php';?>
-

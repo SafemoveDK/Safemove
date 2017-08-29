@@ -184,6 +184,22 @@ p {
     color: #F28541;
 }
 
+.tabs .tab a.active {
+  color: #1B4965;
+}
+
+.tabs .tab a:hover {
+  color: #1B4965;
+}
+
+.tabs .tab a {
+  color: #1B4965;
+}
+
+.tabs .indicator {
+    background-color: #1B4965;
+}
+
 .textopacity {
     color: grey;
     opacity: 0.7;

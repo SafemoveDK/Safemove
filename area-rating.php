@@ -1,83 +1,11 @@
       <!-- Header -->
       <?php include 'header.php';?>
-
+      <?php include 'parameterList.php';?>
 
       <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
       </script>
       <script async defer
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMl37AbpRK06nHLLGmxYUb51MycTi0fAo&callback=initMap">
-      </script>
-      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMl37AbpRK06nHLLGmxYUb51MycTi0fAo&libraries=places&callback=initAutocomplete"
-          async defer></script>
-
-      <script>
-        // This example displays an address form, using the autocomplete feature
-        // of the Google Places API to help users fill in the information.
-
-        // This example requires the Places library. Include the libraries=places
-        // parameter when you first load the API. For example:
-        // <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places">
-
-        var placeSearch, autocomplete;
-        var componentForm = {
-          route: 'long_name',
-          street_number: 'short_name',
-          locality: 'long_name',
-          postal_code: 'short_name'
-        };
-
-        function initAutocomplete() {
-          // Create the autocomplete object, restricting the search to geographical
-          // location types.
-          autocomplete = new google.maps.places.Autocomplete(
-              /** @type {!HTMLInputElement} */(document.getElementById('autocomplete')),
-              {types: ['geocode'],
-              componentRestrictions: {country: "dk"}
-              });
-
-
-          // When the user selects an address from the dropdown, populate the address
-          // fields in the form.
-          autocomplete.addListener('place_changed', fillInAddress);
-        }
-
-        function fillInAddress() {
-          // Get the place details from the autocomplete object.
-          var place = autocomplete.getPlace();
-
-          for (var component in componentForm) {
-            document.getElementById(component).value = '';
-            document.getElementById(component).disabled = false;
-          }
-
-          // Get each component of the address from the place details
-          // and fill the corresponding field on the form.
-          for (var i = 0; i < place.address_components.length; i++) {
-            var addressType = place.address_components[i].types[0];
-            if (componentForm[addressType]) {
-              var val = place.address_components[i][componentForm[addressType]];
-              document.getElementById(addressType).value = val;
-            }
-          }
-        }
-
-        // Bias the autocomplete object to the user's geographical location,
-        // as supplied by the browser's 'navigator.geolocation' object.
-        function geolocate() {
-          if (navigator.geolocation) {
-            navigator.geolocation.getCurrentPosition(function(position) {
-              var geolocation = {
-                lat: position.coords.latitude,
-                lng: position.coords.longitude
-              };
-              var circle = new google.maps.Circle({
-                center: geolocation,
-                radius: position.coords.accuracy
-              });
-              autocomplete.setBounds(circle.getBounds());
-            });
-          }
-        }
       </script>
 
       <script>
@@ -175,31 +103,42 @@
 
         <ul class="collapsible" data-collapsible="expandable">
             <li>
-              <div class="collapsible-header active background-blue white-text"><i class="material-icons safemove-orange">insert_chart</i>Overall rating for området</div>
+              <div class="collapsible-header active background-blue white-text"><i class="material-icons safemove-orange">insert_chart</i>Beboernes tilfredshed med området</div>
               <div class="collapsible-body">
                 <div class="row center">
 
                   <div class="col s6 right-border">
-                    <p>PARAMETER 1</p>
-                    <p>PARAMETER 3</p>
-                    <p>PARAMETER 5</p>
-                    <p>PARAMETER 7</p>
-                    <p>PARAMETER 9</p>
-                  </div>
+
+                    <p><?php echo $safety ?></p>
+                    <p><?php echo $noiseLevel ?></p>
+                    <p><?php echo $neighborhood ?></p>
+                    <p><?php echo $infrastructur ?></p>
+                    <p><?php echo $childFriendly ?></p>
+
+                    <div class="ldBar" data-value="50">
+
+                      <div id="myItem1"></div>
+                        <script>
+                          var bar1 = new ldBar("#myItem1");
+                          var bar2 = document.getElementById('myItem1').ldBar;
+                          bar1.set(60);
+                        </script>
+                      </div>
+                    </div>
 
                   <div class="col s6">
-                    <p>PARAMETER 2</p>
-                    <p>PARAMETER 4</p>
-                    <p>PARAMETER 6</p>
-                    <p>PARAMETER 8</p>
-                    <p>PARAMETER 10</p>
+                    <p><?php echo $reconmendation ?></p>
+                    <p><?php echo $parking ?></p>
+                    <p><?php echo $cleanEnvironment ?></p>
+                    <p><?php echo $cozyness ?></p>
+                    <p><?php echo $moderniseringsgrad ?></p>
                   </div>
 
                 </div>
               </div>
             </li>
             <li>
-              <div class="collapsible-header background-blue white-text"><i class="material-icons safemove-orange">location_on</i>Oversigt over område</div>
+              <div class="collapsible-header active background-blue white-text"><i class="material-icons safemove-orange">location_on</i>Oversigt over område</div>
               <div class="collapsible-body">
                 <div class="row">
 
@@ -252,10 +191,10 @@
               </div>
             </li>
             <li>
-              <div class="collapsible-header background-blue white-text"><i class="material-icons safemove-orange">comment</i>Kommentarer</div>
+              <div class="collapsible-header active background-blue white-text"><i class="material-icons safemove-orange">comment</i>Kommentarer</div>
               <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
             </li>
           </ul>
 
-          <!-- Footer -->
-          <?php include 'footer.php';?>
+    <!-- Footer -->
+    <?php include 'footer.php';?>
