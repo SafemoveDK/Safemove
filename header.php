@@ -6,14 +6,14 @@
       <!--Import Font Awesome-->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <!--Import materialize.css-->
-
+      
       <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
       <link type="text/css" rel="stylesheet" href="./style.css"/>
 
       <meta charset="iso-8859-1" />
       <!-- Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
+      
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
@@ -29,8 +29,8 @@
         <div class="nav-wrapper">
           <a href="index.php"><img src="img/logo.png"  style="height:60px"></a>
           <ul id="nav-mobile" class="right" >
-            <li><a id = "community-click" class="safemove-blue">Safemove-community</a></li>
-            <li><a id = "kontakt-click" class="safemove-blue">Kontakt os</a></li>
+            <li><a id="community-click" class="safemove-blue community-click">Safemove-community</a></li>
+            <li><a id="kontakt-click" class="safemove-blue kontakt-click">Kontakt os</a></li>
             <li><a class="safemove-blue" href="#create-user-modal">Opret bruger</a></li>
             <li><a class="waves-effect waves-light btn background-orange"  href="#login-modal">Login</a></li>
           </ul>
@@ -44,7 +44,7 @@
           <br />
           <h4 class="center white-text">Log ind</h4>
           &nbsp;
-
+          
         </div>
 
         <div id="loginmodal">
@@ -140,7 +140,7 @@
 
 
     </div>
-
+    
     <script type="text/javascript">
       $('#login-modal').modal({
         dismissible: true, // Modal can be dismissed by clicking outside of the modal
@@ -162,7 +162,7 @@
     </script>
 
     <script>
-      $(document).ready(function (){
+        $(document).ready(function (){
             $("#community-click").click(function (){
                 $('html, body').animate({
                     scrollTop: $("#safemove-community").offset().top
@@ -170,7 +170,7 @@
             });
         });
 
-      $(document).ready(function (){
+        $(document).ready(function (){
             $("#kontakt-click").click(function (){
                 $('html, body').animate({
                     scrollTop: $("#kontakt-os").offset().top

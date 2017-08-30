@@ -61,8 +61,8 @@
         </div>
 
       </div>
-      <div align = "right" style = "padding-right: 20px; padding-top: 5px">
-        <button class="modal-action modal-close btn-flat white-text background-orange">Opret bruger</button>
+      <div align = "center" style = "padding-right: 20px; padding-top: 5px">
+        <button class="modal-action modal-close btn-flat white-text background-orange">Tak for din indmelding</button>
       </div>
     </form>
   </div>
