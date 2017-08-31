@@ -24,61 +24,23 @@
 <br />
 <br />
 
-<div class="container">
-  <div class="row right">
-    <div class="col m12">
-      <br />
-      <a href="#whyratemodal"><button class="btn waves-effect waves-light background-orange" type="submit" name="action">Gå til min profil</button></a>
-    </div>
-  </div>
-</div>
-
-<br />
-<br />
-<br />
-<br />
-<br />
-
-<div id="whyratemodal" class="modal modal-fixed-footer">
-
-  <div class="modalheader">
-    <br />
-    <h4 class="center">Noget vigtigt</h4>
-  </div>
-
-  <div id="whyratemodal">
-    <form id="whyrateform" name="whyrateform" method="post" action="my-profile.php">
-      <br />
-      <div class="container">
-
-        <div class="row">
-
-          <div class="col s6">
-            <label for="fname" class="safemove-blue">Hvorfor har du rated?</label>
-            <input type="text" name="whyrate" id="whyrate" class="txtfield safemove-blue" tabindex="1" required>
-          </div>
-
+<form id="whyrateform" name="whyrateform" method="post" action="area-rating.php">
+  <div class="container">
+    <div class="row">
+      <div class="col m12">
+        <div class="col s6">
+          <label for="fname" class="safemove-blue">Hvorfor har du rated?</label>
+          <input type="text" name="whyrate" id="whyrate" class="txtfield safemove-blue" tabindex="1" required>
         </div>
-
+        <br />
+        <div align = "right" style = "padding-right: 20px; padding-top: 5px">
+          <button class="btn-flat white-text background-orange">Gå til det bedømte område</button>
+        </div>
+        
       </div>
-      <div align = "center" style = "padding-right: 20px; padding-top: 5px">
-        <button class="modal-action modal-close btn-flat white-text background-orange">Tak for din indmelding</button>
-      </div>
-    </form>
-  </div>
-
-
     </div>
+  </div>
+</form>
 
-  <script type="text/javascript">
-      $('#whyratemodal').modal({
-        dismissible: true, // Modal can be dismissed by clicking outside of the modal
-        opacity: .5, // Opacity of modal background
-        ready: function(modal, trigger) { // Callback for Modal open. Modal and trigger parameters available.
-          console.log(modal, trigger);
-        },// Callback for Modal close
-        }
-      );
-      </script>
      <!-- Footer -->
     <?php include 'footer.php';?>
