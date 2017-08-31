@@ -1,6 +1,6 @@
 
       <footer>
-      <div class="background-grey" style="border-top: solid; border-width: 3px; border-color: #1B4965;">
+      <div style="border-top: solid; border-width: 3px; border-color: #1B4965;">
         <div class="container">
           <div class="row">
             <div class ="col l6 s16 " style="margin-top: 10px;">
