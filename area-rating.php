@@ -112,7 +112,7 @@
                     <p><?php echo $safety ?></p>
                     <p><?php echo $noiseLevel ?></p>
                     <p><?php echo $neighborhood ?></p>
-                    <p><?php echo $infrastructur ?></p>
+                    <p><?php echo $onlineConnections ?></p>
                     <p><?php echo $childFriendly ?></p>
 
                     <div class="ldBar" data-value="50">
@@ -127,11 +127,11 @@
                     </div>
 
                   <div class="col s6">
-                    <p><?php echo $reconmendation ?></p>
+                    <p><?php echo $recommendation ?></p>
                     <p><?php echo $parking ?></p>
                     <p><?php echo $cleanEnvironment ?></p>
                     <p><?php echo $cozyness ?></p>
-                    <p><?php echo $moderniseringsgrad ?></p>
+                    <p><?php echo $modernization ?></p>
                   </div>
 
                 </div>

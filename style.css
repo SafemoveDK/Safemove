@@ -27,11 +27,15 @@ p {
 }
 
 .background-blue {
-    background-color: #1B4965;
+    background-color: #1B4965 !important;
+}
+
+.background-light-blue {
+    background-color: #669BBA !important;
 }
 
 .background-orange {
-    background-color: #F28541;
+    background-color: #F28541 !important;
 }
 
 .background-orange-saturated {
@@ -185,7 +189,7 @@ p {
 
 
 .safemove-blue {
-    color: #1B4965;
+    color: #1B4965 !important;
 }
 
 .safemove-orange {
