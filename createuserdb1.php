@@ -28,5 +28,3 @@ function insertquery($pdo)
 
 	$statement->execute();
 }   
-
-?>
