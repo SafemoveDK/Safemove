@@ -1,0 +1,234 @@
+html, body {
+    position: relative;
+    left: 0;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: montserrat;
+    color: #1B4965;
+}
+
+nav {
+    /* border-bottom: #1B4965 solid 2px; */
+}
+
+a {
+    font-size: 16px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.background-blue {
+    background-color: #1B4965 !important;
+}
+
+.background-light-blue {
+    background-color: #669BBA !important;
+}
+
+.background-orange {
+    background-color: #F28541 !important;
+}
+
+.background-orange-saturated {
+    background-color: #F2B691
+}
+
+.background-white {
+    background-color: white;
+}
+
+.btn-flat {
+    background-color: #F28541 !important;
+}
+.btn:hover {
+    background-color: #F28541;
+}
+
+.check-icon {
+    font-size: 180px;
+}
+
+.chosen-address {
+    background-color: #CCCCCC;
+    border-radius: 5px;
+}
+.collapsible-header{
+    height: 50px !important;
+}
+
+.contact-headline {
+    font-size: 30px;
+    padding-top: 50px;
+    color: white;
+}
+
+.contact-text {
+    font-size: 40px;
+}
+
+.cover-img {
+    background-image: url('img/gpsimages/aalborg1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+    position: relative;
+}
+
+.cover-text {
+    padding-top: 25px;
+    text-align: center;
+    color: white;
+
+}
+
+.facebook-blue {
+    background-color: #3B5998;
+}
+
+.facebook-blue:hover {
+    background-color: #3B5998;
+}
+
+.grey-text {
+    color: #75707A;
+}
+
+.input-field input[type=text]:focus + label, .materialize-textarea:focus:not([readonly]) + label {
+    color: #fff !important;
+}
+
+.input-field input[type=text]:focus, .materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #fff !important;
+    box-shadow: 0 1px 0 0 #fff !important;
+}
+
+.left-border {
+    border-left: 2px #1B4965 solid;
+}
+
+.modal {
+    border-radius: 4px !important;
+    width: 45%;
+}
+
+.modal-footer {
+    background-color: #1B4965 !important;
+}
+
+.modalheader {
+    background-color: #1B4965;
+    height: 80px;
+    z-index: 1 !important;
+    position: relative;
+}
+
+.my-profile-box {
+    background-color: #fff;
+    position: relative;
+    width: 40%;
+    height: 40px;
+    padding-bottom: -5px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #B3B5B8;
+    border-radius: 8px;
+}
+
+.nav-wrapper {
+    background-color: #fff;
+}
+
+.overall-rating {
+    height: 70px;
+}
+
+.overall-rating > a, .overall-rating > i {
+    font-size: 30px;
+    padding-top: 15px;
+}
+
+.progress .determinate {
+    background-color: #F28541;
+}
+
+.rate-area, .rate-area > i {
+    height: 70px;
+    font-size: 30px;
+    padding-top: 15px;
+}
+
+.rate-area-login {
+    background-color: #1B4965;
+    position: relative;
+    height: 130px;
+}
+
+.rate-header {
+    margin: 0;
+    padding: 20px;
+    color: white;
+}
+.row-alter {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.right-border {
+    border-right: 2px #1B4965 solid;
+}
+
+
+.safemove-blue {
+    color: #1B4965 !important;
+}
+
+.safemove-orange {
+    color: #F28541;
+}
+
+.tabs .tab a.active {
+  color: #1B4965;
+}
+
+.tabs .tab a:hover {
+  color: #1B4965;
+}
+
+.tabs .tab a {
+  color: #1B4965;
+}
+
+.tabs .indicator {
+    background-color: #1B4965;
+}
+
+.textopacity {
+    color: grey;
+    opacity: 0.7;
+}
+.white-text {
+    color: #fff;
+}
+
+#map {
+    height: 400px;
+}
+
+#searchbox {
+    padding-top: 100px;
+    padding-left: 340px;
+    width: 80%;
+    position: absolute;
+    border-radius: 10px;
+    top: 250px;
+}
