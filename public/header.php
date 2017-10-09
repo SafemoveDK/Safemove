@@ -32,7 +32,7 @@
           <a href="index.php"><img src="img/logo.png"  style="height:60px"></a>
           <ul id="nav-mobile" class="right" >
             <li><a id="community-click" class="safemove-blue">Safemove-community</a></li>
-            <li><a id="kontakt-click" class="safemove-blue">Kontakt os</a></li>
+            <li><a id="contact-click" class="safemove-blue">Kontakt os</a></li>
             <li><a class="safemove-blue" href="#create-user-modal">Opret bruger</a></li>
             <li><a class="waves-effect waves-light btn background-orange" href="#login-modal">Login</a></li>
           </ul>
@@ -147,6 +147,12 @@
       $("#community-click").click(function() {
           $('html, body').animate({
               scrollTop: $("#safemove-community").offset().top
+          }, 2000);
+      });
+
+      $("#contact-click").click(function() {
+          $('html, body').animate({
+              scrollTop: $("#kontakt-os").offset().top
           }, 2000);
       });
 
