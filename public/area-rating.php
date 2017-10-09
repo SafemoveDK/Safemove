@@ -114,6 +114,7 @@
                     <p><?php echo $neighborhood ?></p>
                     <p><?php echo $onlineConnections ?></p>
                     <p><?php echo $childFriendly ?></p>
+                    <p><?php echo $condition ?></p>
 
                     <div class="ldBar" data-value="50">
 
@@ -131,7 +132,7 @@
                     <p><?php echo $parking ?></p>
                     <p><?php echo $cleanEnvironment ?></p>
                     <p><?php echo $cozyness ?></p>
-                    <p><?php echo $modernization ?></p>
+                    <p><?php echo $style ?></p>
                   </div>
 
                 </div>

@@ -80,16 +80,16 @@
          </li>
          <li class="collection-item avatar">
            <i class="circle background-light-blue fa fa-building"></i>
-           <span class="title"><?php echo $modernization ?></span>
+           <span class="title"><?php echo $style ?></span>
            <div class="row">
-             <p class="col s8 light">I hvilken grad føler du, at dit boligområde fremstår nyt og moderne?</p>
+             <p class="col s8 light">Er bygningsstilen i dit område klassisk eller moderne?</p>
            </div>
          </li>
          <li class="collection-item avatar">
            <i class="circle background-light-blue fa fa-smile-o"></i>
-           <span class="title"><?php echo $satisfaction1 ?></span>
+           <span class="title"><?php echo $condition ?></span>
            <div class="row">
-             <p class="col s8 light">Hvor tilfreds er du overordnet med dit boligområde?</p>
+             <p class="col s8 light">I hvilken stand er bygningerne i dit område, slidt eller nyrenoveret?</p>
            </div>
          </li>
        </ul>
